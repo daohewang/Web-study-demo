@@ -28,7 +28,7 @@ web前端开发过程中的一些经典小程序，包括html CSS以及JavaScrip
 [前端知识结构](https://github.com/JacksonTian/fks)    
 [Web前端开发大系概览](https://github.com/unruledboy/WebFrontEndStack)        
 [Web前端开发大系概览-中文版](http://www.cnblogs.com/unruledboy/p/WebFrontEndStack.html)	  
-[Web Front-end Stack v2.2](Web Front-end Stack v2.2)  
+[Web Front-end Stack v2.2](https://raw.githubusercontent.com/unruledboy/WebFrontEndStack/master/Web%20Front%20End%20Stack.png)    
 [免费的编程中文书籍索引](	https://github.com/justjavac/free-programming-books-zh_CN)   
 [前端书籍](https://github.com/dypsilon/frontend-dev-bookmarks)	     
 [前端免费书籍大全](https://github.com/vhf/free-programming-books)      
