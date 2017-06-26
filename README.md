@@ -27,7 +27,7 @@ web前端开发过程中的一些经典小程序，包括html CSS以及JavaScrip
 [前端知识体系](http://www.cnblogs.com/sb19871023/p/3894452.html)      	
 [前端知识结构](https://github.com/JacksonTian/fks)    
 [Web前端开发大系概览](https://github.com/unruledboy/WebFrontEndStack)        
-[Web前端开发大系概览-中文版](http://www.cnblogs.com/unruledboy/p/WebFrontEndStack.html)	
+[Web前端开发大系概览-中文版](http://www.cnblogs.com/unruledboy/p/WebFrontEndStack.html)	  
 [Web Front-end Stack v2.2](Web Front-end Stack v2.2)	     
 [免费的编程中文书籍索引](	https://github.com/justjavac/free-programming-books-zh_CN)   
 [前端书籍](https://github.com/dypsilon/frontend-dev-bookmarks)	     
@@ -35,7 +35,7 @@ web前端开发过程中的一些经典小程序，包括html CSS以及JavaScrip
 前端知识体系	http://www.cnblogs.com/sb19871023/p/3894452.html    
 免费的编程中文书籍索引	https://github.com/justjavac/free-programming-books-zh_CN     
 智能社 - 精通JavaScript开发	http://study.163.com/course/introduction/224014.htm     
-重新介绍 JavaScript（JS 教程）	https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/A_re-introduction _to_JavaScript    
+重新介绍 JavaScript（JS 教程）	https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/A_re-introduction_to_JavaScript        
 麻省理工学院公开课：计算机科学及编程导论	http://v.163.com/special/opencourse/bianchengdaolun.html  
 JavaScript中的this陷阱的最全收集--没有之一	http://segmentfault.com/a/1190000002640298  
 JS函数式编程指南	https://llh911001.gitbooks.io/mostly-adequate-guide-chinese/content/ch1.html  
@@ -49,7 +49,7 @@ Front-End-Develop-Guide 前端开发指南	https://github.com/Front-End-Develope
 ## 入门类
 
 
-**入门类**	                                **地址**  
+**入门类**	                                **地址**       
 前端入门教程	http://www.cnblogs.com/jikey/p/3613082.html   
 瘳雪峰的Javascript教程	http://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000  
 jQuery基础教程	http://www.imooc.com/view/11  
@@ -59,7 +59,7 @@ jQuery基础教程	http://www.imooc.com/view/11
 ## 工具类
 
 
-**工具类**	                          **地址**
+**工具类**	                          **地址**  
 前端人的俱乐部	http://f2er.club/ 真可以解放你的收藏夹  
 如何优雅地使用Sublime Text	http://www.jeffjade.com/2015/12/15/2015-04-17-toss-sublime-text/#  
 新编码神器Atom使用纪要	http://www.jeffjade.com/2016/03/03/2016-03-02-how-to-use-atom/  
@@ -75,10 +75,10 @@ visual studio code	https://code.visualstudio.com
 ## 综合效果搜索平台  
 
 
-**综合效果搜索平台**	                 **地址**  
+**综合效果搜索平台**	                                    **地址**  
 zoommyapp.com	http://zoommyapp.com/ 高质量图库  
 unsplash.com	https://unsplash.com/ 高质量图库  
-www.pinterest.com	https://www.pinterest.com/ 图库   
+ https://www.pinterest.com/ 图库   
 New Old Stock	http://nos.twnsnd.co 复古风图库  
 效果网	http://www.jq22.com  
 花瓣网	http://huaban.com/  
@@ -101,7 +101,7 @@ A JS tip per day!	http://www.jstips.co
 ## 开发中心
 
 
-**开发中心**                             	**地址 ** 
+**开发中心**                              	**地址 **   
 mozilla js参考	https://developer.mozilla.org/zh-CN/docs/Web/JavaScript  
 chrome开发中心（chrome的内核已转向blink）	https://developer.chrome.com/extensions/api_index.html  
 safari开发中心	https://developer.apple.com/library/safari/navigation  
@@ -113,7 +113,7 @@ w3help	http://www.w3help.org 综合Bug集合网站
 ## Nodejs
 
 
-**Nodejs**	                                **地址 **   
+**Nodejs**	                                      **地址 **   
 nodejs 篇幅比较巨大	http://liuqing.pw  
 Node.js 包教不包会	https://github.com/alsotang/node-lessons  
 篇幅比较少	http://www.rainweb.cn/article/category/Nodejs  
@@ -137,7 +137,7 @@ NodeJS的代码调试和性能调优	http://www.barretlee.com/blog/2015/10/07/de
 ## 综合API
 
 
-**综合API**	                       **地址 **  
+**综合API**	                             **地址 **      
 javascripting	http://www.javascripting.com  
 各种流行库搜索	http://microjs.com  
 runoob.com-包含各种API集合	http://www.runoob.com
@@ -147,7 +147,7 @@ devdocs	http://devdocs.io 英文综合API网站
 ## Ecmascript
 
 
-**Ecmascript**	                            **地址**  
+**Ecmascript**	                                                                                   **地址**      
 Understanding ECMAScript 6 - Nicholas C. Zakas	https://leanpub.com/understandinges6/read  
 exploring-es6	https://leanpub.com/exploring-es6/read  
 exploring-es6翻译	https://github.com/es6-org/exploring-es6  
@@ -159,7 +159,7 @@ es5	http://es5.github.io
 
 ## Js template
 
-**Js template**	                      **地址**      
+**Js template**	                                                          **地址**                   
 
 
 template-chooser	http://garann.github.io/template-chooser  
@@ -204,7 +204,7 @@ Angular的一些扩展指令	http://www.lovelucy.info/angularjs-best-practices.h
 Angular数据绑定原理	https://github.com/Pasvaz/bindonce   
 一些扩展Angular UI组件	https://github.com/angular-ui    
 Ember和AngularJS的性能测试	http://voidcanvas.com/emberjs-vs-angularjs-performance-testing  
-带你走近AngularJS - 基本功能介绍	http://www.cnblogs.com/powertoolsteam/p/angularjs-introdection.htm  l
+带你走近AngularJS - 基本功能介绍	http://www.cnblogs.com/powertoolsteam/p/angularjs-introdection.htm l  
 Angularjs开发指南	http://angular.duapp.com/docs/guide  
 Angularjs学习	http://www.cnblogs.com/amosli/p/3710648.html  
 不要带着jQuery的思维去学习AngularJS	http://www.rainweb.cn/article/angularjs-jquery.html  
@@ -222,7 +222,7 @@ angular学习笔记	http://www.zouyesheng.com/angular.html
 ## React
 
 
-**React**	                      **地址 **  
+**React**              	                                                     **地址 **  
 react.js 中文论坛	http://www.react-china.org  
 react.js 官方网址	https://facebook.github.io/react/index.html  
 react.js 官方文档	https://facebook.github.io/react/docs/getting-started.html   
@@ -242,7 +242,7 @@ React原创实战视频教程	http://www.piliyu.com
 ## vue
 
 
-**vue**	                          **地址**
+**vue**	                          **地址**  
 Vue	http://cn.vuejs.org  
 Vue 论坛	http://forum.vuejs.org  
 Vue 入门指南	http://www.cnblogs.com/aaronjs/p/3660102.html  
@@ -288,7 +288,7 @@ ruanyifeng	http://javascript.ruanyifeng.com/library/d3.html
 ## Requriejs
 
 
-**Requriejs**	                                               **地址 ** 
+**Requriejs**	                                               **地址 **   
 Javascript模块化编程（一）：模块的写法	http://www.ruanyifeng.com/blog/2012/10/javascript_module.html  
 Javascript模块化编程（二）：AMD规范	http://www.ruanyifeng.com/blog/2012/10/asynchronous_module_definition.html  
 Javascript模块化编程（三）：require.js的用法	http://www.ruanyifeng.com/blog/2012/11/require_js.html  
@@ -304,14 +304,14 @@ require backbone结合	http://www.cnblogs.com/yexiaochai/p/3221081.html
 ## Seajs
 
 
-**Seajs**	                **地址 ** 
+**Seajs**	                **地址 **   
 seajs	http://seajs.org  
 seajs 中文手册	http://cyj.me/why-seajs/zh  
 
 ## Less,sass
 
 
-**Less,sass**	              **地址 **   
+**Less,sass**	                                 **地址 **   
 sass	http://www.w3cplus.com/sassguide   
 sass教程-sass中国	http://www.sass.hk  
 Sass 中文文档	http://sass.bootcss.com  
@@ -346,7 +346,7 @@ emulators	https://www.manymo.com/emulators
 ## UI相关
 
 
-**UI相关**	            **地址 ** 
+**UI相关**	                                             **地址 **   
 bootcss	http://v3.bootcss.com  
 MetroUICSS	http://www.w3cplus.com/MetroUICSS  
 semantic	http://semantic-ui.com  
@@ -364,7 +364,7 @@ gogojimmy	http://gogojimmy.net/2012/01/17/how-to-use-git-1-git-basic
 
 ## 其它API
 
-**其它API**	                                     **地址 ** 
+**其它API**	                                     **地址 **   
 HTTP API 设计指南	http://segmentfault.com/bookmark/1230000002521721  
 javascript流行库汇总	javascriptoo     
 验证api	http://niceue.com/validator/demo/index.php  
@@ -386,7 +386,7 @@ localStorage 库	https://github.com/machao/localStorage
 
 ## 图表类
 
-**图表类**	                                   **地址   **   
+**图表类**	                                   **地址**      
 Highcharts 中文API	http://www.hcharts.cn/api/index.php  
 Highcharts 英文API	http://api.highcharts.com/highcharts  
 ECharts 百度的图表软件	http://echarts.baidu.com/  
@@ -397,7 +397,7 @@ svg 地图	http://jvectormap.com
 ## 正则
 
 
-**正则**	                              **地址   **   
+**正则**	                              **地址**   
 JS正则表达式元字符	http://segmentfault.com/a/1190000002471140  
 正则表达式30分钟入门教程	http://deerchao.net/tutorials/regex/regex.htm  
 MDN-正则表达式	https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Regular_Expressions  
@@ -409,7 +409,7 @@ is.js	https://github.com/Cedriking/is.js/blob/master/is.js
 ## 前端
 
 
-**前端**	                                                            **地址   **    
+**前端**	                                                            **地址**    
 通过分析github代码库总结出来的工程师代码书写习惯	http://alloyteam.github.io/CodeGuide   
 HTML&CSS编码规范 by @mdo	http://codeguide.bootcss.com  
 团队合作的css命名规范-腾讯AlloyTeam前端团队	http://www.alloyteam.com/2011/10/css-on-team-naming/    
@@ -435,14 +435,14 @@ css模块	http://www.75team.com/archives/1049
 ## PHP
 
 
-**PHP**	                                                 **地址  **  
+**PHP**	                                                 **地址**  
 最流行的PHP 代码规范	http://segmentfault.com/a/1190000000443795  
 最流行的PHP 代码规范	https://github.com/hfcorriez/fig-standards/blob/zh_CN/%E6%8E%A5%E5%8F%97/PSR-2-coding-style-guide.md    
 
 ## 各大公司开源项目
 
 
-**各大公司开源项目**	               **地址 **  
+**各大公司开源项目**	               **地址**  
 Facebook Projects	https://code.facebook.com/projects/web  
 百度web前端研发部	http://fex.baidu.com  
 百度EFE	http://efe.baidu.com  
@@ -481,7 +481,7 @@ JavaScript 算法与数据结构 精华集	https://github.com/lightningtgc/JavaS
 
 ## 移动端
 
-**移动端**	               **地址 **   
+**移动端**	               **地址**   
 fastclick	https://github.com/ftlabs/fastclick  
 no-click-delay	https://github.com/mmastrac/jquery-noclickdelay  
 【敏捷开发】Android团队开发规范	http://www.cnblogs.com/lcw/p/3619181.html  
@@ -490,7 +490,7 @@ ionic	https://github.com/ychow/ionic-guide
 
 ## JSON
 
-**JSON**	**地址 **   
+**JSON**	**地址**   
 模拟生成JSON数据	http://beta.json-generator.com  
 返回跨域JSONAPI	http://jsonp.afeld.me   
 
@@ -523,7 +523,7 @@ Smart UI	http://smartui.chinamzz.com
 ## 页面 社会化 分享功能
 
 
-**页面 社会化 分享功能**	             **地址 **   
+**页面 社会化 分享功能**	             **地址**   
 百度分享	http://share.baidu.com pc端  
 JiaThis	http://jiathis.com pc端  
 社会化分享组件	http://developer.baidu.com/soc/share 移动端  
@@ -642,7 +642,7 @@ select2	http://select2.github.io
 
 ## 取色插件  
 
-**取色插件**                                  	**地址**
+**取色插件**                                  	**地址**  
 类似 Photoshop 的界面取色插件	http://www.jq22.com/plugin/367  
 jquery color	https://github.com/jquery/jquery-color  
 取色插件集合	http://www.oschina.net/project/tag/287/color-picker  
@@ -853,7 +853,7 @@ BAT及各大互联网公司2014前端笔试面试题：JavaScript篇	http://blog
 
 ## iconfont
 
-**iconfont**	                                   **地址 **    
+**iconfont**	                                   **地址**    
 中文字体	http://www.zhihu.com/question/21253343  
 淘宝字库	http://iconfont.cn  
 字体	http://mux.alimama.com/fonts    
@@ -872,7 +872,7 @@ Fiddler调式使用知多少(一深入研究	http://www.cnblogs.com/tugenhua0707
 
 ## Chrome
 
-**Chrome**	                                              **地址 **   
+**Chrome**	                                              **地址**   
 Google Chrome 官方	https://developer.chrome.com/devtools  
 Chrome - 基础	http://www.cnblogs.com/constantince/p/4565261.html  
 Chrome - 进阶	http://www.cnblogs.com/constantince/p/4579121.html    
@@ -958,8 +958,8 @@ File Watchers	http://geek100.com/2608
 
 ## 在线PPT制作
 
-**在线PPT制作**	      **地址**
-nodePPT	http://js8.in/2013/11/16/%E6%8E%A8%E8%8D%90nodeppt%EF%BC%9A%E4%BD%BF%E7%94%A8markdown%E8%AF%AD%E6%B3%95%E6%9D%A5%E5%86%99%E7%BD%91%E9%A1%B5ppt/  
+**在线PPT制作**	      **地址**   
+nodePPT	http://js8.in/2013/11/16/%E6%8E%A8%E8%8D%90nodeppt%EF%BC%9A%E4%BD%BF%E7%94%A8markdown%E8%AF%AD%E6%B3%95%E6%9D%A5%E5%86%99%E7%BD%91%E9%A1%B5ppt/             
 
 
 Cleaver快速制作网页PPT	http://www.jeffjade.com/2015/10/15/2015-10-16-cleaver-make-ppt/  
@@ -978,7 +978,7 @@ slippy	https://github.com/Seldaek/slippy
 前端名录	http://sentsin.com/daohang  
 前端导航	http://123.jser.us   
 前端开发资源	http://www.css88.com/nav  
-网址导航	http://www.haourl.cn
+网址导航	http://www.haourl.cn  
 前端开发仓库 - 众多效果的收集地	http://code.ciaoca.com  
 前端资源导航	https://github.com/jnoodle/f2e-collect  
 F2E 前端导航	http://f2e.im/static/pages/nav/index.html  
