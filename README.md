@@ -28,7 +28,7 @@ web前端开发过程中的一些经典小程序，包括html CSS以及JavaScrip
 [前端知识结构](https://github.com/JacksonTian/fks)    
 [Web前端开发大系概览](https://github.com/unruledboy/WebFrontEndStack)        
 [Web前端开发大系概览-中文版](http://www.cnblogs.com/unruledboy/p/WebFrontEndStack.html)	  
-[Web Front-end Stack v2.2](Web Front-end Stack v2.2)	     
+[Web Front-end Stack v2.2](Web Front-end Stack v2.2)  
 [免费的编程中文书籍索引](	https://github.com/justjavac/free-programming-books-zh_CN)   
 [前端书籍](https://github.com/dypsilon/frontend-dev-bookmarks)	     
 [前端免费书籍大全](https://github.com/vhf/free-programming-books)      
@@ -101,7 +101,7 @@ A JS tip per day!	http://www.jstips.co
 ## 开发中心
 
 
-**开发中心**                              	**地址 **   
+**开发中心**                              	**地址**   
 mozilla js参考	https://developer.mozilla.org/zh-CN/docs/Web/JavaScript  
 chrome开发中心（chrome的内核已转向blink）	https://developer.chrome.com/extensions/api_index.html  
 safari开发中心	https://developer.apple.com/library/safari/navigation  
@@ -113,7 +113,7 @@ w3help	http://www.w3help.org 综合Bug集合网站
 ## Nodejs
 
 
-**Nodejs**	                                      **地址 **   
+**Nodejs**	                                      **地址**   
 nodejs 篇幅比较巨大	http://liuqing.pw  
 Node.js 包教不包会	https://github.com/alsotang/node-lessons  
 篇幅比较少	http://www.rainweb.cn/article/category/Nodejs  
@@ -137,7 +137,7 @@ NodeJS的代码调试和性能调优	http://www.barretlee.com/blog/2015/10/07/de
 ## 综合API
 
 
-**综合API**	                             **地址 **      
+**综合API**	                             **地址**      
 javascripting	http://www.javascripting.com  
 各种流行库搜索	http://microjs.com  
 runoob.com-包含各种API集合	http://www.runoob.com
@@ -191,7 +191,7 @@ browserhacks	http://browserhacks.com
 ## Angularjs
 
 
-**Angularjs**	                     **地址 **   
+**Angularjs**	                     **地址**   
 Angular.js 的一些学习资源	https://github.com/dolymood/AngularLearning  
 angularjs中文社区	http://angularjs.cn  
 Angularjs源码学习	http://www.cnblogs.com/xuwenmin888/p/3739096.html  
@@ -222,7 +222,7 @@ angular学习笔记	http://www.zouyesheng.com/angular.html
 ## React
 
 
-**React**              	                                                     **地址 **  
+**React**              	                                                     **地址**  
 react.js 中文论坛	http://www.react-china.org  
 react.js 官方网址	https://facebook.github.io/react/index.html  
 react.js 官方文档	https://facebook.github.io/react/docs/getting-started.html   
@@ -252,7 +252,7 @@ awesome-vue	https://github.com/vuejs/awesome-vue
 ## 移动端API
 
 
-**移动端API**	**地址 **    
+**移动端API**	**地址**    
 99移动端知识集合	https://github.com/jtyjty99999/mobileTech  
 移动端前端开发知识库	https://github.com/AlloyTeam/Mars  
 移动前端的一些坑和解决方法（外观表现）	http://caibaojian.com/mobile-web-bug.html  
@@ -288,7 +288,7 @@ ruanyifeng	http://javascript.ruanyifeng.com/library/d3.html
 ## Requriejs
 
 
-**Requriejs**	                                               **地址 **   
+**Requriejs**	                                               **地址**   
 Javascript模块化编程（一）：模块的写法	http://www.ruanyifeng.com/blog/2012/10/javascript_module.html  
 Javascript模块化编程（二）：AMD规范	http://www.ruanyifeng.com/blog/2012/10/asynchronous_module_definition.html  
 Javascript模块化编程（三）：require.js的用法	http://www.ruanyifeng.com/blog/2012/11/require_js.html  
@@ -304,14 +304,14 @@ require backbone结合	http://www.cnblogs.com/yexiaochai/p/3221081.html
 ## Seajs
 
 
-**Seajs**	                **地址 **   
+**Seajs**	                **地址**   
 seajs	http://seajs.org  
 seajs 中文手册	http://cyj.me/why-seajs/zh  
 
 ## Less,sass
 
 
-**Less,sass**	                                 **地址 **   
+**Less,sass**	                                 **地址**   
 sass	http://www.w3cplus.com/sassguide   
 sass教程-sass中国	http://www.sass.hk  
 Sass 中文文档	http://sass.bootcss.com  
@@ -346,7 +346,7 @@ emulators	https://www.manymo.com/emulators
 ## UI相关
 
 
-**UI相关**	                                             **地址 **   
+**UI相关**	                                             **地址**   
 bootcss	http://v3.bootcss.com  
 MetroUICSS	http://www.w3cplus.com/MetroUICSS  
 semantic	http://semantic-ui.com  
@@ -364,7 +364,7 @@ gogojimmy	http://gogojimmy.net/2012/01/17/how-to-use-git-1-git-basic
 
 ## 其它API
 
-**其它API**	                                     **地址 **   
+**其它API**	                                     **地址**   
 HTTP API 设计指南	http://segmentfault.com/bookmark/1230000002521721  
 javascript流行库汇总	javascriptoo     
 验证api	http://niceue.com/validator/demo/index.php  
