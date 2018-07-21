@@ -1,0 +1,59 @@
+body {
+    margin : 0;
+    padding: 0;
+    background-color: #68cdd5;
+}
+
+.back {
+    margin-top:  2vh;
+    margin-left: 2vw;
+}
+
+.logo {
+    width: 180px;               /*给元素一个宽度解决margin：0 auto不能运行问题*/
+    display: block;
+    margin: 0 auto;
+    padding-top: 6vh;
+}
+
+.content {
+    color: #fff;
+    font-size: 2.5rem;           /*设置字体为28px*/
+    text-align: left;            /*保证每行字体居左对齐*/
+    margin-top: 8vh;
+    padding: 0 10vw;
+}
+
+.com {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 10vh;
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.com img {
+    display: block;
+    width : 9vh;
+    height: 9vh;
+    size: auto;
+    margin: auto;
+    margin-bottom: 1.2vh;
+}
+
+.contract {
+    float: left;
+    margin-left: 11vw;
+}
+
+.about {
+    float: right;
+    margin-right: 11vw;
+}
+
+/*清除浮动*/
+.com:after {
+    content: '';
+    display: block;
+    clear: both;
+}
