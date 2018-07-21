@@ -10,7 +10,7 @@ body {
 }
 
 .logo {
-    width: 180px;               /*给元素一个宽度解决margin：0 auto不能运行问题*/
+    width: 200px;               /*给元素一个宽度解决margin：0 auto不能运行问题*/
     display: block;
     margin: 0 auto;
     padding-top: 6vh;
@@ -18,18 +18,18 @@ body {
 
 .content {
     color: #fff;
-    font-size: 2.5rem;           /*设置字体为28px*/
+    font-size: 2.3rem;           /*设置字体为23px*/
     text-align: left;            /*保证每行字体居左对齐*/
     margin-top: 8vh;
-    padding: 0 10vw;
+    padding: 0 14vw;
 }
 
 .com {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     color: #fff;
     margin-bottom: 10vh;
     margin-top: 10vh;
-    text-align: center;
+    text-align: center;         /*保证图片下面的字体居中图片对齐*/
 }
 
 .com img {
@@ -38,17 +38,17 @@ body {
     height: 9vh;
     size: auto;
     margin: auto;
-    margin-bottom: 1.2vh;
+    margin-bottom: 1.2vh;      /*保证图片和文字有一定的间距*/
 }
 
 .contract {
     float: left;
-    margin-left: 11vw;
+    margin-left: 14vw;
 }
 
 .about {
     float: right;
-    margin-right: 11vw;
+    margin-right: 14vw;
 }
 
 /*清除浮动*/
