@@ -1,0 +1,100 @@
+/*清除浏览器默认效果*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;        /*方便后面换算成10px=1rem*/
+}
+
+body {
+    background-color: #edf1f4;
+}
+
+/*导航部分*/
+
+.header {
+    width: auto;
+    background-color: #5ac0ce;
+    height: 5rem;
+    line-height: 5rem;         /*height=line-height保证字体居中对齐*/
+    font-size: 1.8rem;
+    margin-bottom: 1.1rem;
+    color: #fff;
+    padding: 0 1.8rem;         /*保证整体header左右有一个内边距*/
+    text-align: center;        /*保证“登录”可以居中导航条对齐*/
+}
+
+.header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.side-left {
+    float: left;
+}
+
+.center {
+    font-size: 2.0rem;
+}
+
+.side-right {
+    float: right;
+}
+
+/*清除浮动*/
+
+.clearfloat::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/*输入框部分*/
+
+.form {
+    background-color: #fff;
+    color: #e6e6e6;
+    margin-bottom: 1.4rem;        /*保证输入框之间有一定间距*/
+}
+
+.pwd {
+    outline-color: #fff;         /*设置input外围轮廓线的颜色为白色*/
+    font-size: 1.6rem;
+    margin-left: 0.8rem;         /*保持和左边的竖线有一定间距*/
+    height: 4.8rem;              /*设置input输入框的高度，撑起父级元素高度*/
+    border: none;                /*去除默认输入框边框*/
+    opacity: 0.5;                /*设置字体透明度为半透明*/
+}
+
+.form img {
+    width: 1.6rem;               /*改变图片尺寸*/
+    size: auto;
+    vertical-align: middle;     /*保证图片居中对齐*/
+    margin: 0 2rem;          
+}
+
+/*提交按钮部分*/
+button {
+    width: 100%;               /*保证按钮全屏显示*/
+    height: 5rem;
+    background-color: #5ac0ce;
+    color: #fff;
+    font-size: 2.1rem;
+    border: none;
+    outline: none;
+    margin-bottom: 1.6rem;
+}
+
+/*忘记密码部分*/
+.forget>a {
+    float: right;
+    margin-right: 1.3rem;
+    font-size: 1.7rem;
+    color: #65c3d1;
+}
+
+
+
