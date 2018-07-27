@@ -19,13 +19,16 @@
 
     <!--输入号码框-->
     <div class="form">
-        <img src="../img/log-in_03.png" alt="手机号">|<input type="tel" placeholder="请输入手机号" class="pwd">
+        <img src="../img/log-in_03.png" alt="手机号">|<input type="tel" placeholder="请输入手机号" class="pwd" onkeyup="this.value=this.value.replace(/\D/g,'')">
     </div>
 
     <!--输入密码框-->
     <div class="form">
         <img src="../img/log-in_06.png" alt="密码">|<input type="password"  placeholder="请输入密码" class="pwd">
     </div>
-
+    
+    <!--按钮部分-->
+       <button>登录</button>
+       <div class="forget clearfix"><a href="#">忘记密码</a></div>
 </body>
 </html>
