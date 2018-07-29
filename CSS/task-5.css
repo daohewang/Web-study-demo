@@ -1,0 +1,204 @@
+div,body,p {margin: 0; padding: 0;}
+
+html {
+    font-size: 62.5%;
+}
+
+/*清除浮动*/
+.clearfix {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+/*导航部分*/
+.header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;                 /*引用弹性盒子布局方式*/
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;           /*让元素垂直居中对齐*/ 
+    width:  100vw;
+    background-color: #5ac0ce;
+    font-size: 2.2rem;
+    color: #fff;
+    height: 5rem;
+}
+
+.header a img {
+    height: 2.2rem;
+    width: auto;
+    float: left;
+    margin-left: 1.4rem;
+}
+
+.header span {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;                      /*将导航栏均分为3部分*/  
+    text-align: center;           /*让文字水平居中对齐*/
+}
+
+/*个人界面*/
+.per-interface {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100vw;
+    height: 13rem;
+    background-color: #cccccc;
+    background: url(../img/bgi.png) no-repeat;
+    background-size: 100% 100%;                          /*让图片全屏显示*/
+}
+
+.head-icon {
+    display: inline-block;
+    text-align: center;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    
+}
+.head-icon  img{
+    display: inline-block;
+    width: 80%;
+    height: auto;
+    max-width: 8rem;
+}
+
+.bsIntroduc {
+    font-size: 1.6rem;
+    color: #fff;
+    -webkit-box-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+
+}
+
+.position-icon {
+    font-size: 1.4rem;
+    font-weight: lighter;
+    margin-top: 1rem;
+}
+
+.position-icon img {
+    height: 1.3rem;
+    width: auto;
+    padding-right: 0.4rem;
+}
+
+/*专业技能*/
+.skill {
+    width: 100%;
+/*    height: ;*/
+}
+
+.skill p {
+    border-bottom: 1px solid #e1e5e7;
+    padding: 2rem 2rem 2rem 1rem;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    color: #acacac;
+    font-size: 2.0rem;
+}
+h2 {
+    font-size: 2.0rem;
+}
+
+h2 img {
+    display: inline-block;
+    height: 1.8rem;
+    margin: 0 1.5rem;
+}
+.skill-basis {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: auto;
+    padding-left: 2.5rem;
+}
+
+.skill-basis .require {
+    font-size:  1.8rem;
+    color: #333;
+}
+
+.skill-basis .require img {
+    display: inline-block;
+    height: 1.2rem;
+}
+
+.skill-basis p span {
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.skill-basis .hour {
+    color: #e46060;
+}
+
+.self-intro {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    padding: 2rem 0rem 2rem 1rem;
+    border-bottom: 1px solid  #e1e5e7;
+}
+
+.self1 {
+    font-size: 2.0rem;
+    color: #acacac;
+    -ms-flex-negative: 0 ;
+    flex-shrink: 0 ;
+}
+
+.self-intro .self2 {
+    font-size: 1.6rem;
+    padding: 0;
+    padding-right: 2rem;
+}
+
+/*按键部分*/
+.button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: fixed;
+    bottom: 1rem;
+    width: 100vw;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.button button {
+    width: 40%;
+    height: 4rem;
+    outline: none;
+    border-radius: 0.5rem;
+    font-size: 2.0rem;
+}
+.leftword {
+    border: 1px solid #5ac0ce;
+    color: #5ac0ce;
+    background-color: #fff;
+}
+.phone {
+    border: none;
+    color: #fff;
+    background-color: #5ac0ce;
+}

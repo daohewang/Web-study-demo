@@ -84,7 +84,7 @@ button {
     color: #fff;
     font-size: 2.1rem;
     border: none;
-    outline: none;
+    outline: none;               /*去除边框内部默认的突出元素的线*/
     margin-bottom: 1.6rem;
 }
 
