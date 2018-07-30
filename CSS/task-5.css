@@ -1,7 +1,10 @@
-div,body,p {margin: 0; padding: 0;}
+div, body, p {
+    margin: 0;
+    padding: 0;
+}
 
 html {
-    font-size: 62.5%;
+    font-size: 62.5%;             /*方便后面rem和px的换算*/
 }
 
 /*清除浮动*/
@@ -11,26 +14,29 @@ html {
     clear: both;
 }
 
-/*导航部分*/
-.header {
+.flex {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;                 /*引用弹性盒子布局方式*/
+    display: flex;                /*引用弹性盒子布局方式*/
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center;           /*让元素垂直居中对齐*/ 
-    width:  100vw;
-    background-color: #5ac0ce;
-    font-size: 2.2rem;
-    color: #fff;
+    align-items: center;          /*让元素垂直居中对齐*/
+}
+
+/*导航栏部分*/
+
+.header {            
+    width:  100vw;              /*保证导航栏宽度全屏显示*/
     height: 5rem;
+    color: #fff;
+    font-size: 2.2rem;
+    background-color: #5ac0ce;
 }
 
 .header a img {
+    float: left;   
+    margin-left: 1.4rem;          /*让图片链接左浮动到指定位置*/
     height: 2.2rem;
-    width: auto;
-    float: left;
-    margin-left: 1.4rem;
 }
 
 .header span {
@@ -40,80 +46,77 @@ html {
     text-align: center;           /*让文字水平居中对齐*/
 }
 
-/*个人界面*/
+/*个人界面部分*/
+
 .per-interface {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    width: 100vw;
+    width: 100vw;                     
     height: 13rem;
-    background-color: #cccccc;
+    background-color: #cccccc;    /*设置背景色*/
     background: url(../img/bgi.png) no-repeat;
-    background-size: 100% 100%;                          /*让图片全屏显示*/
+    background-size: 100% 100%;    /*让图片全屏显示*/
 }
 
 .head-icon {
     display: inline-block;
-    text-align: center;
     -webkit-box-flex: 1;
     -ms-flex: 1;
     flex: 1;
+    text-align: center;            /*让头像水平居中对齐*/                        
     
 }
 .head-icon  img{
     display: inline-block;
     width: 80%;
     height: auto;
-    max-width: 8rem;
+    max-width: 8rem;              /*头像宽度最大不超过8rem*/
 }
 
 .bsIntroduc {
-    font-size: 1.6rem;
-    color: #fff;
     -webkit-box-flex: 2;
     -ms-flex: 2;
     flex: 2;
-
+    font-size: 1.6rem;
+    color: #fff;
 }
 
-.position-icon {
-    font-size: 1.4rem;
-    font-weight: lighter;
+.position-icon {  
     margin-top: 1rem;
+    font-size: 1.4rem;
+    font-weight: 100;              /*字体粗细用数字表示更佳*/
 }
 
 .position-icon img {
-    height: 1.3rem;
-    width: auto;
     padding-right: 0.4rem;
+    height: 1.3rem;               /*改变图标的大小*/
+    width: auto;
 }
 
-/*专业技能*/
+/*专业技能部分*/
+
 .skill {
+    margin-bottom: 8rem;         /*保证文字和下方的按钮有一定的间距，文字可以完全显示*/
     width: 100%;
-/*    height: ;*/
 }
 
 .skill p {
-    border-bottom: 1px solid #e1e5e7;
-    padding: 2rem 2rem 2rem 1rem;
     -webkit-box-flex: 1;
     -ms-flex: 1;
     flex: 1;
+    border-bottom: 1px solid #e1e5e7;      /*设置文字下方的分割线*/
+    padding: 1.5rem 2rem 1.5rem 1rem;
     color: #acacac;
     font-size: 2.0rem;
 }
+
 h2 {
     font-size: 2.0rem;
+
 }
 
 h2 img {
     display: inline-block;
-    height: 1.8rem;
     margin: 0 1.5rem;
+    height: 1.8rem;
 }
 .skill-basis {
     display: -webkit-box;
@@ -122,14 +125,19 @@ h2 img {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
-    flex-direction: column;
-    width: auto;
+    flex-direction: column;                    /*布局沿交叉轴排列*/
     padding-left: 2.5rem;
+    border-top: 1px solid #e1e5e7;
+    width: auto;
 }
 
 .skill-basis .require {
     font-size:  1.8rem;
     color: #333;
+}
+
+.skill-basis thin {
+    color: #acacac;
 }
 
 .skill-basis .require img {
@@ -147,61 +155,50 @@ h2 img {
 }
 
 .self-intro {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-    padding: 2rem 0rem 2rem 1rem;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;               /*保证说明部分文字可以适中排列*/
+    padding: 1rem 0rem 1rem 1rem;
     border-bottom: 1px solid  #e1e5e7;
 }
 
 .self1 {
+    -ms-flex-negative: 0 ;
+    flex-shrink: 0 ;                   /*定义项目的缩小比例，默认为1，即如果空间不足，该项目将缩小。这里设置为0表示不会缩小。*/
     font-size: 2.0rem;
     color: #acacac;
-    -ms-flex-negative: 0 ;
-    flex-shrink: 0 ;
 }
 
 .self-intro .self2 {
-    font-size: 1.6rem;
     padding: 0;
     padding-right: 2rem;
-    -webkit-box-flex: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
+    font-size: 1.6rem;
 }
 
 /*按键部分*/
 .button {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    position: fixed;
+    position: fixed;                        /*保证按钮固定下面不动*/
+    -ms-flex-pack: distribute;
+    justify-content: space-around;          /*保证按钮以相同的间距排列*/
     bottom: 1rem;
     width: 100vw;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+    
 }
 
 .button button {
     width: 40%;
     height: 4rem;
-    outline: none;
-    border-radius: 0.5rem;
     font-size: 2.0rem;
+    outline: none;                        /*去除默认边框内的样式*/
+    border-radius: 0.5rem;
 }
 .leftword {
-    border: 1px solid #5ac0ce;
     color: #5ac0ce;
+    border: 1px solid #5ac0ce;
     background-color: #fff;
 }
 .phone {
-    border: none;
     color: #fff;
+    border: none;
     background-color: #5ac0ce;
 }
