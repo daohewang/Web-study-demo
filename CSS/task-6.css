@@ -1,0 +1,148 @@
+*{margin: 0; padding: 0;}
+
+html {
+/*    height: 100%;*/
+    font-size: 62.5%;
+}
+
+.header {
+    display: fixed;
+    width: 100%;
+}
+
+.topbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    height: 5rem;
+    background-color: #5fc0cd;
+}
+
+.buton {
+    background-color: #55a8b3;
+    margin-left: 2rem;
+}
+
+.buton button {
+    height: 3.8rem;
+    width: 7rem;
+    font-size: 1.6rem;
+    border: none;
+    outline: none;
+    border-radius: 5%;
+}
+
+.bt1 {
+    color: #fff;
+    background-color: #53a9b3;
+}
+.bt2 {
+    color: #7ec5cd;
+    background-color: #fff;
+}
+
+.icon-position {
+    margin-right: 1rem;
+}
+
+.icon-position img{
+     display: block;
+     width: 100%;
+     height: 100%;
+     max-width: 70%; 
+     
+}
+
+/*S 主体部分开始*/
+.main {
+    display: fixed;
+    width: 100%;
+    background-color: #fff;
+
+}
+
+.nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 5rem;
+    border-bottom: 1px solid #afbac0;
+}
+
+.com-sel {
+    line-height: 5rem;
+    cursor: pointer;
+}
+
+.com-opt {
+    color: #afbac0;
+    font-size: 1.6rem;
+    appearance:none;  
+    -moz-appearance:none;  
+    -webkit-appearance:none;
+     background: url("../img/task5-2_07.jpg") no-repeat right center transparent;
+     padding-right: 1.8rem;
+     border: none;
+     outline: none;
+}
+
+.line {
+    border-right: 1px solid #afbac0;
+    height: 2rem; 
+}
+
+.content {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.list {
+    height: auto;
+    color: #bdbdbd;
+    font-size: 1.7rem;
+    border-bottom: 1px solid #afbac0;
+}
+.list div {
+    margin: 1rem;
+}
+
+.icon img{
+    display: inline-block;
+    padding-bottom: 0.35rem;
+    padding-right: 1rem;
+}
+.sal {
+    color: #d74d2d;
+    width: 100%;
+}
+.sal span{
+    display: inline-block;
+    vertical-align: middle;
+    width: 60%;
+    padding: 0 2.5rem;
+    color: #525252;
+    overflow:hidden;          /*超出部分隐藏*/
+    white-space:nowrap;
+    /*文本溢出用"..."表示*/
+    text-overflow:ellipsis;                    /*适用IE*/
+    -o-text-overflow:ellipsis;                 /*适用opera*/
+    -moz-binding: url('ellipsis.xml#ellipsis');/*适用火狐(firefox通过XUL实现效果)*/
+}
+
+.sal img {
+    display: inline-block;
+    padding: 0 1rem;
+    max-width: 50%;
+}
