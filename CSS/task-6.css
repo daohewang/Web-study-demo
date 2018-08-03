@@ -4,9 +4,8 @@ html {
 /*    height: 100%;*/
     font-size: 62.5%;
 }
-
-.header {
-    display: fixed;
+.head {
+    position: fixed;
     width: 100%;
 }
 
@@ -61,7 +60,7 @@ html {
 
 /*S 主体部分开始*/
 .main {
-    display: fixed;
+/*    position: fixed;*/
     width: 100%;
     background-color: #fff;
 
@@ -106,6 +105,7 @@ html {
 .content {
     width: 100%;
     margin-bottom: 2rem;
+    padding-top: 10rem;
 }
 
 .list {
@@ -116,6 +116,9 @@ html {
 }
 .list div {
     margin: 1rem;
+    width: 100%;
+    height: 2rem;
+    line-height: 2rem;
 }
 
 .icon img{
@@ -125,7 +128,8 @@ html {
 }
 .sal {
     color: #d74d2d;
-    width: 100%;
+    
+    position: relative;
 }
 .sal span{
     display: inline-block;
@@ -140,9 +144,58 @@ html {
     -o-text-overflow:ellipsis;                 /*适用opera*/
     -moz-binding: url('ellipsis.xml#ellipsis');/*适用火狐(firefox通过XUL实现效果)*/
 }
-
+.sal b {
+    position: absolute;
+    font-weight: 400;
+    right: 4rem;
+}
 .sal img {
+    position: absolute;
     display: inline-block;
-    padding: 0 1rem;
-    max-width: 50%;
+    right: 0.8rem;
+    padding: 0 1rem;  
+    height: 100%;
+    max-width: 60%;
+}
+
+.footer {
+    width: 100%;
+/*    position: fixed;*/
+}
+.foo {
+    
+    display: -webkit-box;
+    
+    display: -ms-flexbox;
+    
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    height: 8rem;
+}
+.foo div {
+    padding: 1rem;
+    color: #c6c6c6;
+    font-size: 1.6rem;
+}
+.home span {
+    text-align: center;
+
+}
+.foo img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    height: 100%;
+    max-width: 80%;
+    padding-bottom: 0.5rem;
+}
+
+.foo .home {
+    color: #92cad0;
 }
