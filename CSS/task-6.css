@@ -60,8 +60,7 @@ html {
     /*改变图片的大小，让图片自适应屏幕*/
      width: 100%;
      height: 100%;
-     max-width: 70%; 
-     
+     max-width: 70%;
 }
 /*E  头部结束*/
 
@@ -110,6 +109,7 @@ html {
 }
 /*E  主体部分结束*/
 
+
 /*S  内容部分开始*/
 .content {
 /*    min-height: cal(100vh - 9rem);*/
@@ -124,6 +124,7 @@ html {
     font-size: 1.7rem;
     border-bottom: 1px solid #afbac0;
 }
+
 .list div {
     margin: 1rem;
     width: 100%;
@@ -136,10 +137,12 @@ html {
     padding-bottom: 0.35rem;      /*让图标和文字下方对齐*/
     padding-right: 1rem;
 }
+
 .sal {
     color: #d74d2d;
     position: relative;
 }
+
 .sal span{
     display: inline-block;
     vertical-align: middle;
@@ -153,11 +156,13 @@ html {
     -o-text-overflow:ellipsis;                 /*适用opera*/
     -moz-binding: url('ellipsis.xml#ellipsis');/*适用火狐(firefox通过XUL实现效果)*/
 }
+
 .sal b {
     position: absolute;
     right: 4rem;
     font-weight: 400;
 }
+
 .sal img {
     position: absolute;
     display: inline-block;
@@ -168,6 +173,7 @@ html {
 }
 /*E  内容部分结束*/
 
+
 /*S  尾部开始*/
 .footer {
     width: 100%;
@@ -175,6 +181,7 @@ html {
     bottom: 0;
     background-color: #fff;           /*避免内容部分和footer部分重叠*/
 }
+
 .foo {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -187,6 +194,7 @@ html {
     width: 100%;
     height: 8rem;
 }
+
 .foo div {
     color: #c6c6c6;
     font-size: 1.6rem;
