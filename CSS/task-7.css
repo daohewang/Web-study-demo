@@ -7,7 +7,12 @@ html {
 body {
     background-color: #eff0f1;
 }
+/*
 
+.renference {
+    position: relative;
+}
+*/
 .topbar {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -21,7 +26,7 @@ body {
 
 .menu {                                /*利用div加上下border的形式制作三横选框*/
     padding: 0.5rem 0;
-    margin-left: 1rem;
+    margin-left: 2rem;
     height: 0.3rem;
     width: 2.5rem;
     border-top: 0.3rem solid  #fff;
@@ -34,6 +39,7 @@ body {
 
 /*S  主体内容部分开始*/
 main {
+/*    position: relative;*/
     margin: 0 auto;                   /*让主体部分居中对齐*/
     padding: 2rem 0;
     width: 90%;
@@ -60,7 +66,7 @@ main {
 
 .right-arrow {                      /*利用css制作右箭头*/
     position: absolute;
-    right: 1rem;
+    right: 1.5rem;
     width: 1.2rem;
     height: 1.2rem;
     border-top: .3rem solid #e6e9e9;
@@ -87,7 +93,7 @@ main {
 .com-content {
     margin: 0 auto;
     padding-top: 2rem;
-    width: 80%;
+    width: 85%;
 }
 
 .com-content a {
@@ -97,19 +103,29 @@ main {
 .com-content p {
     text-align: center;
     color: #b2b3b3;
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 .block-lk {
-    line-height: 8rem;
-    text-align: center;
     margin-bottom: 2rem;
     width: 100%;
-    height: 8rem;
+    height: 6rem;
+    line-height: 6rem;
+    text-align: center;
     color: #fff;
-    font-size: 3rem;
+    font-size: 2.5rem;
     background-color: #6dd2e9;
 }
 
+.triangle-right {            /*制作右三角形且相对白界面时固定的*/
+    position: fixed;
+    right: 6%;
+    top: 55%;
+    width: 0;
+    height: 0;
+    border-top: 1.2rem solid transparent;
+    border-left: 1rem solid #f8b547;
+    border-bottom: 1.2rem solid transparent;
+}
 .dots-group {
     display: -webkit-box;
     display: -ms-flexbox;
