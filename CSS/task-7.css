@@ -9,9 +9,6 @@ body {
 }
 /*
 
-.renference {
-    position: relative;
-}
 */
 .topbar {
     display: -webkit-box;
@@ -219,7 +216,7 @@ main {
         }
 
         .day {
-            padding-left: 6%;
+            padding-left: 6%;                  /*这里必须用padding，用margin的话会导致分割线不能完整显示*/
             color: #a6a6a6;
             font-size: 1.6rem;
             text-align: left;
@@ -257,7 +254,7 @@ main {
             bottom: 0;
             height: 5rem;
             width: 100%;
-            background-color: rgba(15, 178, 217, .5);
+            background-color: rgba(15, 178, 217, .5);               /*让按钮部分背景色变成半透明*/
         }
 
         .control {
