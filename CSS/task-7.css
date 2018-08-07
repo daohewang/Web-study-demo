@@ -148,3 +148,123 @@ main {
     background: #6bd3e9;
 }
 /*E  主体部分结束*/
+
+
+
+/*
+----------------------------------------------------------------------------------------------------------------------------------
+****************************************************游戏结果界面css************************************************
+-----------------------------------------------------------------------------------------------------------------------------------*/
+
+.bgc {
+            background-color: #34bede;
+        }
+
+        .topbar1 {
+            position: relative;
+            height: 5rem;
+            line-height: 5rem;
+            color: #fff;
+            font-size: 2.0rem;
+            border-bottom: 1px solid #fff;
+        }
+
+        .posi {
+            position: absolute;
+            right: 1.4rem;
+            top: 1.5rem;
+        }
+
+        .logo {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            margin-top: 2rem;
+            width: 100%;
+            height: 11rem;
+            background-color: #34bede;
+        }
+
+        .logo img {
+            height: 10rem;
+            width: auto;
+            max-height: 10rem;
+        }
+
+        .logo-descrip {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            padding: 0 2rem;
+            color: #fac86d;
+            font-size: 2rem;
+            font-weight: 600;
+            text-align: left;
+        }
+
+        .descrip {
+            margin-top: 2.5rem;
+            color: #fff;
+            font-size: 1.8rem;
+        }
+
+        .descrip p {
+            padding: 0.4rem 0;
+        }
+
+        .day {
+            padding-left: 6%;
+            color: #a6a6a6;
+            font-size: 1.6rem;
+            text-align: left;
+            border-bottom: 1px solid #e1e2e3;
+        }
+
+        .day-num {
+            position: relative;
+            padding: 1rem 0;
+            color: #333333;
+            font-size: 1.8rem;
+        }
+
+        .day-num span {
+            position: absolute;
+            right: 5rem;
+            font-size: 1.4rem;
+            color: #a6a6a6;
+        }
+
+        .day p {
+            padding-bottom: 1rem;
+        }
+
+        .buto {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-pack: distribute;
+            justify-content: space-around;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            position: fixed;
+            bottom: 0;
+            height: 5rem;
+            width: 100%;
+            background-color: rgba(15, 178, 217, .5);
+        }
+
+        .control {
+            margin-bottom: 6rem;
+        }
+
+        .btn1 {
+            height: 3.2rem;
+            width: 9rem;
+        }
