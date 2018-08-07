@@ -1,0 +1,134 @@
+html, body,div, p{margin: 0; padding: 0;}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #eff0f1;
+}
+
+.topbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 4.8rem;
+    background-color: #29bde0;
+}
+
+.menu {                                /*利用div加上下border的形式制作三横选框*/
+    padding: 0.5rem 0;
+    margin-left: 1rem;
+    height: 0.3rem;
+    width: 2.5rem;
+    border-top: 0.3rem solid  #fff;
+    border-bottom: 0.3rem solid  #fff;
+/* background-clip设置元素的背景（背景图片或颜色）是否延伸到边框下面。 这里让背景裁剪到内容区外沿*/
+    background-clip: content-box;
+    background-color: #fff;
+}
+/*E  topbar内容结束*/
+
+/*S  主体内容部分开始*/
+main {
+    margin: 0 auto;                   /*让主体部分居中对齐*/
+    padding: 2rem 0;
+    width: 90%;
+}
+
+.top-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+    color: #afb0b1;
+    font-size: 2rem;
+    background-color: #feffff;
+    border: 1px solid #dddedf;
+}
+
+.right-arrow {                      /*利用css制作右箭头*/
+    position: absolute;
+    right: 1rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-top: .3rem solid #e6e9e9;
+    border-right: .3rem solid #e6e9e9;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);      /*将元素围绕一个定点，顺时针方向旋转45度*/
+}
+
+.content {
+    margin-top: 2rem;
+    width: 100%;
+    border: 1px solid #dddedf;
+    background-color: #feffff;
+}
+
+.orange {
+    border-bottom: 2px solid #f8be5d;
+    padding: 2rem;
+    text-align: center;
+    font-size: 3rem;
+    color: #f8be5d;
+}
+
+.com-content {
+    margin: 0 auto;
+    padding-top: 2rem;
+    width: 80%;
+}
+
+.com-content a {
+    text-decoration: none;
+}
+
+.com-content p {
+    text-align: center;
+    color: #b2b3b3;
+    font-size: 2rem;
+}
+.block-lk {
+    line-height: 8rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    width: 100%;
+    height: 8rem;
+    color: #fff;
+    font-size: 3rem;
+    background-color: #6dd2e9;
+}
+
+.dots-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 2rem 0;
+}
+.dots {                             /*利用css制作小圆点*/
+    display: inline-block;
+    margin: 0 0.2rem;
+    width: 1rem;
+    height: 1rem;
+    background: #eff0f1;
+    border-radius: 50%;
+}
+
+.dots:nth-child(1) {
+    background: #6bd3e9;
+}
+/*E  主体部分结束*/
