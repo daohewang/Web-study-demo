@@ -1,4 +1,10 @@
-html, body,div, p{margin: 0; padding: 0;}
+html,
+body,
+div,
+p {
+    margin: 0;
+    padding: 0;
+}
 
 html {
     font-size: 62.5%;
@@ -7,9 +13,11 @@ html {
 body {
     background-color: #eff0f1;
 }
+
 /*
 
 */
+
 .topbar {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -21,23 +29,27 @@ body {
     background-color: #29bde0;
 }
 
-.menu {                                /*利用div加上下border的形式制作三横选框*/
+.menu {
+    /*利用div加上下border的形式制作三横选框*/
     padding: 0.5rem 0;
     margin-left: 2rem;
     height: 0.3rem;
     width: 2.5rem;
-    border-top: 0.3rem solid  #fff;
-    border-bottom: 0.3rem solid  #fff;
-/* background-clip设置元素的背景（背景图片或颜色）是否延伸到边框下面。 这里让背景裁剪到内容区外沿*/
+    border-top: 0.3rem solid #fff;
+    border-bottom: 0.3rem solid #fff;
+    /* background-clip设置元素的背景（背景图片或颜色）是否延伸到边框下面。 这里让背景裁剪到内容区外沿*/
     background-clip: content-box;
     background-color: #fff;
 }
+
 /*E  topbar内容结束*/
 
 /*S  主体内容部分开始*/
+
 main {
-/*    position: relative;*/
-    margin: 0 auto;                   /*让主体部分居中对齐*/
+    /*    position: relative;*/
+    margin: 0 auto;
+    /*让主体部分居中对齐*/
     padding: 2rem 0;
     width: 90%;
 }
@@ -61,7 +73,8 @@ main {
     border: 1px solid #dddedf;
 }
 
-.right-arrow {                      /*利用css制作右箭头*/
+.right-arrow {
+    /*利用css制作右箭头*/
     position: absolute;
     right: 1.5rem;
     width: 1.2rem;
@@ -69,7 +82,8 @@ main {
     border-top: .3rem solid #e6e9e9;
     border-right: .3rem solid #e6e9e9;
     -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);      /*将元素围绕一个定点，顺时针方向旋转45度*/
+    transform: rotate(45deg);
+    /*将元素围绕一个定点，顺时针方向旋转45度*/
 }
 
 .content {
@@ -102,6 +116,7 @@ main {
     color: #b2b3b3;
     font-size: 1.6rem;
 }
+
 .block-lk {
     margin-bottom: 2rem;
     width: 100%;
@@ -113,7 +128,8 @@ main {
     background-color: #6dd2e9;
 }
 
-.triangle-right {            /*制作右三角形且相对白界面时固定的*/
+.triangle-right {
+    /*制作右三角形且相对白界面时固定的*/
     position: fixed;
     right: 6%;
     top: 55%;
@@ -123,6 +139,7 @@ main {
     border-left: 1rem solid #f8b547;
     border-bottom: 1.2rem solid transparent;
 }
+
 .dots-group {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -132,7 +149,9 @@ main {
     justify-content: center;
     margin: 2rem 0;
 }
-.dots {                             /*利用css制作小圆点*/
+
+.dots {
+    /*利用css制作小圆点*/
     display: inline-block;
     margin: 0 0.2rem;
     width: 1rem;
@@ -144,9 +163,8 @@ main {
 .dots:nth-child(1) {
     background: #6bd3e9;
 }
+
 /*E  主体部分结束*/
-
-
 
 /*
 ----------------------------------------------------------------------------------------------------------------------------------
@@ -154,6 +172,7 @@ main {
 -----------------------------------------------------------------------------------------------------------------------------------*/
 
 /*顶部导航栏部分*/
+
 .bgc {
     background-color: #34bede;
 }
@@ -174,6 +193,7 @@ main {
 }
 
 /* 胜利logo部分*/
+
 .logo {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -194,6 +214,7 @@ main {
 }
 
 /*结果部分*/
+
 .logo-descrip {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -209,6 +230,7 @@ main {
 }
 
 /*人数统计部分*/
+
 .descrip {
     margin-top: 2.5rem;
     color: #fff;
@@ -220,8 +242,10 @@ main {
 }
 
 /* 详细情况部分*/
+
 .day {
-    padding-left: 6%;                  /*这里必须用padding，用margin的话会导致分割线不能完整显示*/
+    padding-left: 6%;
+    /*这里必须用padding，用margin的话会导致分割线不能完整显示*/
     color: #a6a6a6;
     font-size: 1.6rem;
     text-align: left;
@@ -247,6 +271,7 @@ main {
 }
 
 /*按钮部分*/
+
 .buto {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -260,7 +285,8 @@ main {
     bottom: 0;
     height: 5rem;
     width: 100%;
-    background-color: rgba(15, 178, 217, .5);               /*让按钮部分背景色变成半透明*/
+    background-color: rgba(15, 178, 217, .5);
+    /*让按钮部分背景色变成半透明*/
 }
 
 .control {
@@ -270,4 +296,77 @@ main {
 .btn1 {
     height: 3.2rem;
     width: 9rem;
+}
+
+
+/*
+----------------------------------------------------------------------------------------------------------------------------------
+****************************************************投票界面css************************************************
+-----------------------------------------------------------------------------------------------------------------------------------*/
+
+.topbar2 {
+     position: relative;
+    height: 5rem;
+    line-height: 5rem;
+    color: #fff;
+    font-size: 2rem;
+}
+.x {
+    position: relative;
+}
+
+.xl {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    color: #fafefe;
+}
+
+.p {
+    border: 2px solid #fff;
+    padding: 2px;
+}
+
+.top-medium {
+    position: relative;
+    height: 5rem;
+    line-height: 5rem;
+    background-color: #b9e9f5;
+    width: 100%;
+    color: #606f73;
+    font-size: 1.7rem;
+    padding-left: 8%;
+}
+
+.top-medium img {
+    position: absolute;
+    right: 1rem;
+    top: 0.75rem;
+    height: 3.3rem;
+    max-height: 3.3rem;
+}
+
+.triangle-down {
+    display: inline-block;
+    position: absolute;
+    top: 4.6rem;
+    left: 10%;
+    width: 0;
+    height: 0;
+    border-left: .8rem solid transparent;
+    border-right: .8rem solid transparent;
+    border-top: 1.5rem solid #b9e9f5;
+
+}
+
+main {
+    width: 100%;
+/*    height: 100%;*/
+    background-color: #34bede;
+}
+
+.man-icon {
+    color: #fff;
+    font-size: 1.6rem;
+    padding-left: 10%;
 }
