@@ -8,6 +8,7 @@ p {
 
 html {
     font-size: 62.5%;
+    height: 100%;
 }
 
 body {
@@ -361,12 +362,50 @@ main {
 
 main {
     width: 100%;
-/*    height: 100%;*/
     background-color: #34bede;
 }
 
 .man-icon {
     color: #fff;
     font-size: 1.6rem;
-    padding-left: 10%;
+    padding-left: 8%;
+}
+
+.spce {
+    margin: 2rem 0;
+    margin-bottom: 3rem;
+}
+
+/*.col {height: 10vw;}*/
+
+.wrap {
+    width: 90%;
+    height: 100%;
+    border: 3px solid #fff;
+}
+
+/*
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+*/
+.yellow-wrap {
+    height: 0;
+    padding: 30% 0 50% 0;
+/*    line-height:6rem;*/
+    width: 100%;
+    background-color: #f3c881;
+    color: #606f73;
+    font-size: 1.8rem;
+}
+
+.dark-wrap {
+    height: 0;
+    padding: 5% 0 20% 0;
+    background-color: #82af9b;
+    font-size: 1.2rem;
+    color: #fff;
+/*    border: none;*/
 }
