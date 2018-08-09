@@ -209,7 +209,7 @@ html {
 main {
     width: 100%;
     background-color: #34bede;
-    padding-bottom: 3rem;
+    padding-bottom: 8rem;
 }
 
 .man-icon {
@@ -249,7 +249,9 @@ main {
 
 footer {
     width: 100%;
-    height: 5rem;
+    height: 6rem;
+    position: fixed;
+    bottom: 0;
     background-color: #34bede;
 }
 .foot {
@@ -264,14 +266,10 @@ footer {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    padding-bottom: 2rem;
 }
 
 .kill {
-
-    display: block;
-    position: fixed;
-    bottom: 0;
-    width: 70%;
+    width: 80%;
+    height: 55%;
     font-size: 1.8rem;
 }
