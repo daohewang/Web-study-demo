@@ -11,196 +11,68 @@ html {
     height: 100%;
 }
 
-/*E  主体部分结束*/
-
-/*
-----------------------------------------------------------------------------------------------------------------------------------
-****************************************************游戏结果界面css************************************************
------------------------------------------------------------------------------------------------------------------------------------*/
-
 /*顶部导航栏部分*/
 
-.bgc {
-    background-color: #34bede;
-}
-
-.topbar1 {
-    position: relative;
-    height: 5rem;
-    line-height: 5rem;
-    color: #fff;
-    font-size: 2.0rem;
-    border-bottom: 1px solid #fff;
-}
-
-.posi {
-    position: absolute;
-    right: 1.4rem;
-    top: 1.5rem;
-}
-
-/* 胜利logo部分*/
-
-.logo {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    margin-top: 2rem;
-    width: 100%;
-    height: 11rem;
-    background-color: #34bede;
-}
-
-.logo img {
-    height: 10rem;
-    width: auto;
-    max-height: 10rem;
-}
-
-/*结果部分*/
-
-.logo-descrip {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    padding: 0 2rem;
-    color: #fac86d;
-    font-size: 2rem;
-    font-weight: 600;
-    text-align: left;
-}
-
-/*人数统计部分*/
-
-.descrip {
-    margin-top: 2.5rem;
-    color: #fff;
-    font-size: 1.8rem;
-}
-
-.descrip p {
-    padding: 0.4rem 0;
-}
-
-/* 详细情况部分*/
-
-.day {
-    padding-left: 6%;
-    /*这里必须用padding，用margin的话会导致分割线不能完整显示*/
-    color: #a6a6a6;
-    font-size: 1.6rem;
-    text-align: left;
-    border-bottom: 1px solid #e1e2e3;
-}
-
-.day-num {
-    position: relative;
-    padding: 1rem 0;
-    color: #333333;
-    font-size: 1.8rem;
-}
-
-.day-num span {
-    position: absolute;
-    right: 5rem;
-    font-size: 1.4rem;
-    color: #a6a6a6;
-}
-
-.day p {
-    padding-bottom: 1rem;
-}
-
-/*按钮部分*/
-
-.buto {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+.fix {
     position: fixed;
-    bottom: 0;
-    height: 5rem;
-    width: 100%;
-    background-color: rgba(15, 178, 217, .5);
-    /*让按钮部分背景色变成半透明*/
+    top: 0;
+    z-index: 1;                   /*保证导航部分一直顶层显示*/
+    width: 100%;                  /*必须添加，不然不会全屏显示*/
+    background-color: #34bede;
+
 }
 
-.control {
-    margin-bottom: 6rem;
-}
-
-.btn1 {
-    height: 3.2rem;
-    width: 9rem;
-}
-
-
-/*
-----------------------------------------------------------------------------------------------------------------------------------
-****************************************************投票界面css************************************************
------------------------------------------------------------------------------------------------------------------------------------*/
 .topbar2 {
-    width: 100%;
+/*    width: 100%;             注意：这里不能设置宽度，否则会影响布局效果*/
     height: 5rem;
     line-height: 5rem;
     color: #fff;
     font-size: 2rem;
 }
 
-
-.x {
+.X{
     position: relative;
 }
 
 .xl {
     position: absolute;
-    top: 1.5rem;
-    right: 1.5rem;
+    top: 1.6rem;
+    right: 1rem;
     color: #fafefe;
 }
 
-.p {
+.topbar2 .p {
     border: 2px solid #fff;
     padding: 2px;
 }
 
+/*音频部分*/
+
 .top-medium {
     position: relative;
+    padding-left: 8%;
+    margin-top: 5rem;                /*保证音频部分不会导航栏部分重叠*/
     height: 5rem;
     line-height: 5rem;
-    background-color: #b9e9f5;
-    width: 100%;
     color: #606f73;
-    font-size: 1.7rem;
-    padding-left: 8%;
+    font-size: 1.5rem;
+    background-color: #b9e9f5;
 }
 
 .top-medium img {
     position: absolute;
     right: 1rem;
     top: 0.75rem;
-    height: 3.3rem;
-    max-height: 3.3rem;
+    height: 3.3rem;                /*控制图片的大小以适应屏幕*/
+    max-height: 3.3rem;            /*图片的最大放大比例*/
 }
 
 .top-medium img:hover {
-
     -webkit-transform: scale(1.2);
-    transform: scale(1.1);
+    transform: scale(1.1);         /*鼠标悬停时图片呈现放大效果*/
 }
 
-.triangle-down {
+.triangle-down {                   /*下三角形的制作方式*/
     display: inline-block;
     position: absolute;
     top: 4.6rem;
@@ -213,22 +85,19 @@ html {
 
 }
 
+/*主体部分*/
+
 main {
+    padding-bottom: 8rem;
     width: 100%;
     background-color: #34bede;
-    padding-bottom: 8rem;
 }
 
 .man-icon {
     color: #fff;
     font-size: 1.6rem;
     padding-left: 8%;
-    margin-top: 1.5rem;
-}
-
-.spce {
-    margin: 2rem 0;
-    margin-bottom: 3rem;
+    margin: 1.5rem 0;          /*保证和上下有一定的外边距*/
 }
 
 .wrap {
@@ -238,32 +107,73 @@ main {
 }
 
 .yellow-wrap {
+    padding: 20% 0 50% 0;      /*使用padding把bootstrap的内容部分撑开*/
     height: 0;
-    padding: 20% 0 50% 0;
     width: 100%;
-    background-color: #f3c881;
     color: #606f73;
     font-size: 1.8rem;
+    background-color: #f3c881;
 }
 
 .dark-wrap {
-    height: 0;
     padding: 10% 0 30% 0;
-    background-color: #82af9b;
+    height: 0;
     font-size: 1.2rem;
     color: #fff;
+    background-color: #82af9b;
 }
 
+.man-guide {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    opacity: 0;                /*鼠标未悬停时隐藏内容*/
+}
+
+.wrap:hover ~.man-guide {
+    opacity: 1;               /*鼠标悬停到wrap内容时，呈现隐藏的内容*/
+}
+
+.man-guide i {
+    float: left;
+    width: 6vw;               /*设置单张图片的宽高*/
+    height: 6vw;
+    margin: 1vw;              /*保证map的上下有一定的间距*/
+    background-image: url(../img/task7-sprite.png);
+    background-repeat: no-repeat;
+    background-size: 24vw 6vw;      /* 关键：确定背景的大小，否则图片无法正常显示*/
+}
+/*利用背景图定位，显示雪碧图里的内容*/
+.map1 {
+    background-position: 0 0;
+}
+
+.map2 {
+    background-position: -6vw 0;
+}
+
+.map3 {
+    background-position: -12vw 0;
+}
+
+.map4 {
+    background-position: -18vw 0;
+}
+
+/*footer部分*/
+
 footer {
-    width: 100%;
-    height: 6rem;
     position: fixed;
     bottom: 0;
+    width: 100%;
+    height: 6rem;
     background-color: #34bede;
 }
+
 .foot {
-    width: 100%;
-    height: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -273,6 +183,8 @@ footer {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+    width: 100%;
+    height: 100%;
 }
 
 .kill {
