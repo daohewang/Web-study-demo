@@ -1,0 +1,140 @@
+html,
+body,
+div,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    height: 100%;
+}
+
+/*顶部导航栏部分*/
+
+.bgc {
+    background-color: #34bede;
+}
+
+.topbar1 {
+    position: relative;
+    height: 5rem;
+    line-height: 5rem;
+    color: #fff;
+    font-size: 2.0rem;
+    border-bottom: 1px solid #fff;
+}
+
+.posi {
+    position: absolute;
+    right: 1.4rem;
+    top: 1.5rem;
+}
+
+/* 胜利logo部分*/
+
+.logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;          /*让胜利logo居中对齐*/
+    margin-top: 2rem;
+    height: 11rem;
+    background-color: #34bede;
+}
+
+.logo img {
+    height: 10rem;
+    max-height: 10rem;              /*设置图片的最大放大程度*/
+}
+
+/*结果部分*/
+
+.logo-descrip {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 0 2rem;
+    color: #fac86d;
+    font-size: 2rem;
+    font-weight: 600;                /*文字呈现加粗效果，等同于bold*/
+    text-align: left;                /*保持文字每一行都左对齐*/
+}
+
+/*人数统计部分*/
+
+.descrip {
+    margin-top: 2.5rem;
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+.descrip p {
+    padding: 0.4rem 0;             /*保证上下行有一定的间距*/
+}
+
+/* 详细情况部分*/
+
+.control {
+    padding: 0;                     /*去除container-fluid左右默认的15px的内边距*/
+    margin-bottom: 8rem;
+}
+
+.day {
+    padding-left: 10%;             /*保证文字和左侧有一定的间距*/
+    /*这里必须用padding，用margin的话会导致分割线不能完整显示*/
+    color: #a6a6a6;
+    font-size: 1.6rem;
+    text-align: left;
+    border: 1px solid #e1e2e3;
+}
+
+.day-num {
+    position: relative;
+    padding: 1rem 0;
+    color: #333333;
+    font-size: 1.8rem;
+}
+
+.day-num span {
+    position: absolute;              /*利用绝对定位让时间部分定位到右边*/
+    right: 5rem;
+    font-size: 1.4rem;
+    color: #a6a6a6;
+}
+
+.day p {
+    padding-bottom: 1rem;            /*保证字和分割线之间有一定的距离*/
+}
+
+/*按钮部分*/
+
+.buto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    /*让按钮固定定位到底端的方式*/
+    position: fixed;
+    bottom: 0;
+
+    height: 5rem;
+    width: 100%;                   /*保证按钮部分是全屏显示的*/
+    background-color: rgba(15, 178, 217, .5);   /*让按钮部分背景色变成半透明，其他不变的方式*/
+
+}
+
+.btn1 {
+    height: 3.2rem;
+    width: 9rem;
+}
