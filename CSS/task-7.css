@@ -123,7 +123,7 @@ main {
     background-color: #82af9b;
 }
 
-.man-guide {
+.map-guide {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -137,7 +137,7 @@ main {
     opacity: 1;               /*鼠标悬停到wrap内容时，呈现隐藏的内容*/
 }
 
-.man-guide i {
+.map-guide i {
     float: left;
     width: 5vw;               /*设置单张图片的宽高*/
     height: 5vw;
@@ -193,3 +193,11 @@ footer {
     font-size: 1.8rem;
 }
 
+.foot a:link {
+    color: #fff;
+}
+
+.foot a:hover {
+    text-decoration: none;
+    font-size: 2.0rem;
+}
