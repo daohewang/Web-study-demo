@@ -139,16 +139,16 @@ main {
 
 .man-guide i {
     float: left;
-    width: 6vw;               /*设置单张图片的宽高*/
-    height: 6vw;
+    width: 5vw;               /*设置单张图片的宽高*/
+    height: 5vw;
     margin: 1vw;              /*保证map的上下有一定的间距*/
     background-image: url(../img/task7-sprite.png);
     background-repeat: no-repeat;
-    background-size: 24vw 6vw;      /* 关键：确定背景的大小，否则图片无法正常显示*/
+    background-size: 23vw 5vw;      /* 关键：确定背景的大小，否则图片无法正常显示*/
 }
 /*利用背景图定位，显示雪碧图里的内容*/
 .map1 {
-    background-position: 0 0;
+    background-position: -0.4vw 0;
 }
 
 .map2 {
@@ -156,11 +156,11 @@ main {
 }
 
 .map3 {
-    background-position: -12vw 0;
+    background-position: -11.6vw 0;
 }
 
 .map4 {
-    background-position: -18vw 0;
+    background-position: -17.4vw 0;
 }
 
 /*footer部分*/
