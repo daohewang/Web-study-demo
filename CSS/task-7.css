@@ -133,7 +133,7 @@ main {
     opacity: 0;                /*鼠标未悬停时隐藏内容*/
 }
 
-.wrap:hover ~.man-guide {
+.wrap:hover ~.map-guide {
     opacity: 1;               /*鼠标悬停到wrap内容时，呈现隐藏的内容*/
 }
 
@@ -173,7 +173,7 @@ footer {
     background-color: #34bede;
 }
 
-.foot {
+#foot {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -193,11 +193,12 @@ footer {
     font-size: 1.8rem;
 }
 
-.foot a:link {
+/*添加按钮的权重，让字体颜色可以正常显示*/
+#foot a{
     color: #fff;
 }
 
-.foot a:hover {
+#foot a:hover {
     text-decoration: none;
     font-size: 2.0rem;
 }
