@@ -127,7 +127,7 @@ main {
     /*制作右三角形且相对白界面时固定的*/
     position: fixed;
     right: 6%;
-    top: 45%;
+    top: 50%;
     width: 0;
     height: 0;
     border-top: 1.2rem solid transparent;
