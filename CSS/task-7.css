@@ -107,8 +107,8 @@ main {
 }
 
 .yellow-wrap {
-    padding: 20% 0 50% 0;      /*使用padding把bootstrap的内容部分撑开*/
-    height: 0;
+    padding: 28% 0;      /*使用padding把bootstrap的内容部分撑开*/
+/*    height: 0;          height加与不加会导致内容宽度是否可以居中对齐  */
     width: 100%;
     color: #606f73;
     font-size: 1.8rem;
@@ -116,8 +116,8 @@ main {
 }
 
 .dark-wrap {
-    padding: 10% 0 30% 0;
-    height: 0;
+    padding: 5% 0;
+/*    height: 0;*/
     font-size: 1.2rem;
     color: #fff;
     background-color: #82af9b;
