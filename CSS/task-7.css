@@ -184,7 +184,7 @@ main {
 }
 
 .kill {
-    width: 80%;
+    width: 70vw;
 /*    height: 55%;                         所以这里设置高度百分比就有点鸡肋，毫无用处，并不会影响什么*/
     height: 3.5rem;
     font-size: 1.8rem;
