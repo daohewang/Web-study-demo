@@ -1,0 +1,16 @@
+body, html, div, p {
+    padding: 0;
+    margin: 0;
+}
+
+.topbar1 {
+    width: 100vw;
+    height: 2.1vh;
+    background-color: #ddd;
+}
+
+.topbar2 {
+    width: 100vw;
+    height: 5.2vh;
+    background-color: #29B078;
+}
