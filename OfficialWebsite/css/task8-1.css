@@ -3,14 +3,64 @@ body, html, div, p {
     margin: 0;
 }
 
+html {
+    font-size: 100px;
+}
+
+body {
+    font-size: 14px;
+    font-family: "MicrosoftYaHei";
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 1.4rem;
+}
+
 .topbar1 {
-    width: 100vw;
-    height: 2.1vh;
+    position: relative;
+    width: 100%;
+    height: .4rem;
+    line-height: .4rem;
     background-color: #ddd;
 }
 
+.topbar1 span {
+    color: #29B078;
+    padding-left: 20%;
+}
+
+.topbar1 img {
+    display: inline-block;
+    position: absolute;
+    right: 18.8%;
+    top: .07rem;
+    min-width: .24rem;
+}
+
 .topbar2 {
-    width: 100vw;
-    height: 5.2vh;
+    width: 100%;
+    height: 1rem;
+    line-height: 1rem;
     background-color: #29B078;
+}
+
+.topbar2 a {
+    display: inline-block;
+    height: .96rem;
+    width: 1rem;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.topbar2 a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.all-a {
+        padding-left: 60%;
 }
