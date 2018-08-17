@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,69 +8,95 @@
     <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
     <title>技能树首页</title>
     <!-- Bootstrap -->
-    <link href="../bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="../bootstrap-3.3.7/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.1.0/css/bootstrap.min.css">
+<!--    <link rel="stylesheet" href="../../bootstrap-4.0.0/css/bootstrap.min.css">-->
     <link rel="stylesheet" href="../css/task8-1.css">
-    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
-    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
-    <!--[if lt IE 9]>
-      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
-<body>
-<!--   底部导航栏部分-->
+    <script src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/popper.js/1.12.5/umd/popper.min.js"></script>
+<!--    <script src="../../bootstrap-4.0.0/js/bootstrap.min.js"></script>-->
+        <script src="https://cdn.bootcss.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 
-    <header>
-        <div class="topbar1">
-            <span>客服热线 : 010-594-78634</span>
-            <img src="../img/qq.png" alt="分享图标">
+</head>
+
+<body>
+    <!--   顶部导航栏部分-->
+
+    <div class="container toperbar">
+        <span>客服热线 : 010-594-78634</span>
+        <div class="contract">
+            <img src="../img/task8-wechat.png" alt="" class="clearfix">
+            <img src="../img/task8-qq.png" alt="" class="clearfix">
+            <img src="../img/task8-weibo.png" alt="" class="clearfix">
         </div>
-        <div class="topbar2">
-            <div class="all-a">
-            <a href="#">首页</a>
-            <a href="#">职业</a>
-            <a href="#">推荐</a>
-            <a href="#">关于</a>
+    </div>
+
+    <!------------------------------------------导航栏----------------------------------------------------------------------->
+
+    <div class="topbar">
+            <nav class="container navbar navbar-light navbar-expand-md pr-0">
+                <!-- Brand -->
+                <a href="#" class="nav-bar-brand">
+                    <img src="../img/task8-jnshu.png" alt="">
+                </a>
+
+                <!-- Toggler/collapsibe Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navbar links -->
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link px-3" href="#">首页</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  px-3" href="#">推荐</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  px-3" href="#">推荐</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-3" href="#">关于</a>
+                            </li>
+                        </ul>
+                    </div>
+            </nav>
+        </div>
+
+    <!----------------------------------------------------------轮播图------------------------------------------------------------------------->
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- 指示符 -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+
+        <!-- 轮播图片 -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="http://static.runoob.com/images/mix/img_fjords_wide.jpg" style="width: 100%;">
+            </div>
+            <div class="carousel-item">
+                <img src="http://static.runoob.com/images/mix/img_nature_wide.jpg" style="width: 100%;">
+            </div>
+            <div class="carousel-item">
+                <img src="http://static.runoob.com/images/mix/img_mountains_wide.jpg" style="width: 100%;">
             </div>
         </div>
-    </header>
 
-<!--    轮播图部分-->
-    <div id="myCarousel" class="carousel slide">
-	<!-- 轮播（Carousel）指标 -->
-	<ol class="carousel-indicators">
-		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-		<li data-target="#myCarousel" data-slide-to="1"></li>
-		<li data-target="#myCarousel" data-slide-to="2"></li>
-	</ol>
-	<!-- 轮播（Carousel）项目 -->
-	<div class="carousel-inner">
-		<div class="item active">
-			<img src="../img/css-carousel1.png" alt="First slide">
-		</div>
-		<div class="item">
-			<img src="../img/css-carousel2.jpg" alt="Second slide">
-		</div>
-		<div class="item">
-			<img src="../img/css-carousel3.jpg" alt="Third slide">
-		</div>
-	</div>
-	<!-- 轮播（Carousel）导航 -->
-	<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-		<span class="sr-only">Previous</span>
-	</a>
-	<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-		<span class="sr-only">Next</span>
-	</a>
-</div>
+        <!-- 左右切换按钮 -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
 
- <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
-    <script src="http://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
-    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    </div>
 
-    <script src="../bootstrap-3.3.7/js/bootstrap.min.js"></script>
 </body>
+
 </html>
