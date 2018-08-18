@@ -22,25 +22,29 @@
  */
 
 
-body, html, div, p {
+body,
+html,
+div,
+p {
     padding: 0;
     margin: 0;
 }
 
-html {
-/*    font-size: 100px;*/
+body {
+    font-family: "MicrosoftYaHei";
+    background-color: #fafafa;
 }
 
-body {
-/*    font-size: 14px;*/
-    font-family: "MicrosoftYaHei";
+/*------------------------------------------联系条------------------------------------*/
+.header {
+    background-color: #fff;
 }
 
 .toperbar {
     width: 100%;
     height: 2rem;
     line-height: 2rem;
-    background-color: #fff;
+    background-color: #fafafa;
 }
 
 .toperbar span {
@@ -58,8 +62,152 @@ body {
     line-height: 2rem;
 }
 
+/*--------------------------------------------导航条-----------------------------------------------------*/
+
 .topbar {
     width: 100%;
     color: #fff;
-    background: #29b078;
+    background-color: #29b078;
+    z-index: 90;
+/*    margin-bottom: 1rem;*/
+}
+
+.topbar .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.nav-bar-brand img {
+    margin: 20% 0;
+}
+
+.topbar .navbar-nav .nav-item a:hover {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+/*--------------------------------------------轮播---------------------------------------------------*/
+
+#demo {
+    margin-top: 7.75rem;
+    width: 100%;
+}
+
+.carousel-inner .carousel-item > img {
+    width: 100%;
+}
+
+.carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    width: 30px;
+    height: 30px;
+}
+
+
+/*---------------------------------------主体内容--------------------------------*/
+
+.introduction {
+    margin-top: 4rem;
+}
+
+.introduction .col-md-3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.center {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.introduction .row p {
+    color: #333;
+    font-size: 1.12rem;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
+.introduction .row .img-1 {
+    padding: 7px 0;
+}
+
+.introduction .row .img-2 {
+    padding: 3.5px 0;
+}
+
+.introduction .row span {
+    color: #999;
+}
+
+.introduction .line {
+    border-right: 2px dashed #e5e5e5;
+}
+
+.introduction .col-md-12 {
+    color: #26A26F;
+    font-size: 1.1rem;
+}
+
+.introduction .col-md-12 p {
+    color: #999;
+    font-weight: 400;
+}
+
+/*-----------------------------如何学习---------------------------------*/
+
+.study .how-study {
+    width: 6rem;
+    height: 6rem;
+    margin: 0 auto;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.study  .col-md-3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.study .col-md-3 b {
+    display: inline-block;
+    height: 5rem;
+    width: 5rem;
+    text-align: center;
+    padding-top: 1.6rem;
+    border: 1px solid #eeedee;
+    border-radius: 50%;
+    color: #26A26F;
+    background-color: #fff;
+}
+
+.study .col-md-3 span {
+    width: 60%;
+    padding: 0 1rem;
+    color: #999;
+    font-size: 14px;
+}
+
+.study .col-md-3 img {
+    height: 1.25rem;
 }
