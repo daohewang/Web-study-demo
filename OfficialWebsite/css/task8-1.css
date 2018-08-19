@@ -89,7 +89,7 @@ body {
 /*--------------------------------------------轮播---------------------------------------------------*/
 
 #demo {
-    margin-top: 7.75rem;
+    margin-top: 6.5rem;
     width: 100%;
 }
 
@@ -116,18 +116,6 @@ body {
     margin-top: 4rem;
 }
 
-.introduction .col-md-3 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-}
 .center {
     display: block;
     margin: auto;
@@ -169,15 +157,17 @@ body {
 
 /*-----------------------------如何学习---------------------------------*/
 
-.study .how-study {
-    width: 6rem;
+ .how-study {
+    width: 8rem;
     height: 6rem;
+    line-height: 6rem;
+    text-align: center;
     margin: 0 auto;
     font-size: 1.125rem;
     font-weight: 600;
 }
 
-.study  .col-md-3 {
+.study  .col-md-6 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -189,25 +179,145 @@ body {
     align-items: center;
 }
 
-.study .col-md-3 b {
+.study .col-md-6 b {
     display: inline-block;
-    height: 5rem;
-    width: 5rem;
+    height: 4rem;
+    width: 4rem;
     text-align: center;
-    padding-top: 1.6rem;
+    padding-top: 1.24rem;
     border: 1px solid #eeedee;
     border-radius: 50%;
     color: #26A26F;
     background-color: #fff;
 }
 
-.study .col-md-3 span {
+.study .col-md-6 span {
     width: 60%;
     padding: 0 1rem;
     color: #999;
     font-size: 14px;
 }
 
-.study .col-md-3 img {
+.study .col-md-6 img {
     height: 1.25rem;
+}
+
+/*--------------------------------------------优秀学员----------------------------*/
+
+.exc-member .wrap {
+    margin-top: 2rem;
+    padding-top: 2rem;;
+    background-color: #fff;
+}
+
+.exc-member img {
+    max-height: 6rem;
+    max-width: 6rem;
+    border-radius: 50%;
+    border: 1px solid #fafafa;
+}
+
+.exc-member p {
+    padding: 2rem 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.exc-member span {
+    display: inline-block;
+    padding-bottom: 3rem;;
+    width: 80%;
+    text-align: left;
+    color: #999;
+}
+
+.exc-member .radius i {
+    display: inline-block;
+    margin: 1.5rem 0;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: 1px solid #999;
+}
+
+.exc-member .radius i:nth-child(1) {
+    background: #29B078;
+}
+
+/*-------------------------------------------战略合作---------------------------------*/
+.cooperation .row {
+    background-color: #fff;
+    margin-bottom: 3rem;
+    padding: 2rem 0;
+}
+
+.cooperation .col-md-2 img {
+    display: inline-block;
+    width: 9rem;
+    height: 9rem
+}
+.cooperation .col-md-2 img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    border: 3px solid #f3f3f3;
+}
+
+/*----------------------------友情链接------------------------------------------*/
+.relative-link {
+    background-color: #fff;
+    padding-right: 2rem;
+}
+
+.relative-link .link li {
+        list-style: none;
+
+}
+
+.relative-link  .link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.relative-link  .link a {
+    font-size: 12px;
+    color: #999;
+    text-decoration: none;
+}
+
+.relative-link  .link a:hover > span {
+    padding-bottom: 3px;
+    border-bottom: 2px solid #26A26F;
+}
+
+/*------------------------------联系我们-----------------------------*/
+
+.footer {
+    background-color: #26A26F;
+    padding: 2rem 0;
+    color: #fff;
+    font-size: 14px;
+    border-bottom: 1px solid #32C086;
+}
+
+.footer .nav-text {
+    font-size: 16px;
+}
+
+.footer .row a {
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer .row a:hover > span {
+    padding-bottom: 3px;
+    border-bottom: 2px solid #fff;
+}
+
+.footer .copyright span{
+    font-size: 12px;
 }
