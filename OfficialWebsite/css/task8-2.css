@@ -1,0 +1,88 @@
+.yellow-bgc img{
+    margin-top: 7.7rem;
+    width: 100%;
+/*    background-color: #f3a846;*/
+}
+
+.top-text {
+    margin-top: 2rem;
+}
+
+.top-text span {
+    color: #29B078;
+}
+
+.main-content {
+    margin-bottom: 8rem;
+}
+
+.main-content .left-bar {
+    color: #333;
+    text-align: left;
+    height: 40rem;                          /*固定左变边栏的内容高度，保证和右边栏不同步高度*/
+    background-color: #fff;
+}
+
+.left-bar p {
+    padding-left: 40%;
+    line-height: 2.2rem;
+}
+
+.left-bar .cor-business {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333;
+    line-height: 4rem;
+    border-bottom: 3px solid #E6E6E6;
+}
+.left-bar p > a {
+    color: #29B078;
+    font-size: 14px;
+}
+
+.left-bar p > a:hover{
+    text-decoration: none;
+    color: #FF650E;
+}
+
+.left-bar p > a:hover > i {
+    background-color: #FF650E;                /*鼠标悬停时小圆点填充背景色*/
+}
+
+.left-bar .round {
+    display: inline-block;
+    margin-right: 5px;
+    height: 9px;
+    width: 9px;
+    border: 1px solid #FF5C00;
+    border-radius: 50%;
+}
+
+.left-bar .pb {
+    padding-bottom: 1rem;;
+}
+
+.main-content .right-bar {
+    background-color: #fff;
+}
+
+.right-bar .b-line {
+    margin-bottom: 1.2rem;
+    padding-bottom: 1rem;
+    font-size: 14px;
+    color: #999;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.right-bar p {
+    padding: 1rem;
+    line-height: 1.5rem;
+    font-size: 14px;
+    text-indent: 2em;     /*设置首行缩进两个单位*/
+    color: #999;
+}
+
+.right-bar .bt {
+    margin-bottom: 5rem;
+}

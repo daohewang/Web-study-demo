@@ -68,8 +68,6 @@ body {
     width: 100%;
     color: #fff;
     background-color: #29b078;
-    z-index: 90;
-/*    margin-bottom: 1rem;*/
 }
 
 .topbar .navbar-nav .nav-link {
@@ -81,7 +79,7 @@ body {
     margin: 20% 0;
 }
 
-.topbar .navbar-nav .nav-item a:hover {
+.topbar .nav-item a:hover > span {
     color: #fff;
     border-bottom: 2px solid #fff;
 }
@@ -123,10 +121,10 @@ body {
 }
 
 .introduction .row p {
+    margin: 1rem 0;
     color: #333;
     font-size: 1.12rem;
     font-weight: 600;
-    margin: 1rem 0;
 }
 
 .introduction .row .img-1 {
@@ -158,11 +156,11 @@ body {
 /*-----------------------------如何学习---------------------------------*/
 
  .how-study {
+    margin: 0 auto;
     width: 8rem;
     height: 6rem;
     line-height: 6rem;
     text-align: center;
-    margin: 0 auto;
     font-size: 1.125rem;
     font-weight: 600;
 }
@@ -181,19 +179,19 @@ body {
 
 .study .col-md-6 b {
     display: inline-block;
+    padding-top: 1.24rem;
     height: 4rem;
     width: 4rem;
     text-align: center;
-    padding-top: 1.24rem;
+    color: #26A26F;
     border: 1px solid #eeedee;
     border-radius: 50%;
-    color: #26A26F;
     background-color: #fff;
 }
 
 .study .col-md-6 span {
-    width: 60%;
     padding: 0 1rem;
+    width: 60%;
     color: #999;
     font-size: 14px;
 }
@@ -215,6 +213,11 @@ body {
     max-width: 6rem;
     border-radius: 50%;
     border: 1px solid #fafafa;
+}
+
+.exc-member img:hover {
+     -webkit-transform: scale(1.5);
+    transform: scale(1.5);
 }
 
 .exc-member p {
@@ -245,32 +248,41 @@ body {
 }
 
 /*-------------------------------------------战略合作---------------------------------*/
-.cooperation .row {
+.cooperation .imgs {
+    margin: 20px 0;
+    height: 200px;
     background-color: #fff;
-    margin-bottom: 3rem;
-    padding: 2rem 0;
 }
 
-.cooperation .col-md-2 img {
-    display: inline-block;
-    width: 9rem;
-    height: 9rem
+.cooperation .img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0;
+    height: 200px;
+    background: #fff;
 }
-.cooperation .col-md-2 img:hover {
+
+.cooperation img:hover {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
-    border: 3px solid #f3f3f3;
 }
 
 /*----------------------------友情链接------------------------------------------*/
 .relative-link {
-    background-color: #fff;
+    margin-top: 2rem;
     padding-right: 2rem;
+    background-color: #fff;
 }
 
 .relative-link .link li {
-        list-style: none;
-
+    list-style: none;
 }
 
 .relative-link  .link {
@@ -296,10 +308,10 @@ body {
 /*------------------------------联系我们-----------------------------*/
 
 .footer {
-    background-color: #26A26F;
-    padding: 2rem 0;
+    padding: .3rem 0;
     color: #fff;
     font-size: 14px;
+     background-color: #26A26F;
     border-bottom: 1px solid #32C086;
 }
 
@@ -320,4 +332,9 @@ body {
 
 .footer .copyright span{
     font-size: 12px;
+}
+
+.footer img:hover {
+     -webkit-transform: scale(1.5);
+    transform: scale(1.5);
 }
