@@ -60,14 +60,128 @@
     color: #333;
 }
 
-.table .td-1, .table .td-2{
-    width：70%；
+/*-----------------------------------------表格部分---------------------------------------*/
+
+.clearlyIntro .table{
+    margin-bottom: 0;
+    line-height: 1.8rem;
 }
 
-.clearlyIntro .table .tdd-2 .td-3 {
+.clearlyIntro .table .td-1 {
     width: 50%;
+    border-right:1px solid #dee2e6;
+    border-left: 1px solid #dee2e6;
+}
+
+.clearlyIntro .table .td-2 {
+    width: 40%;
     text-align: center;
     vertical-align: middle;
+    border-top: none;
+}
+
+.clearlyIntro .table .red {
+    color: #F01400;
+}
+
+.clearlyIntro .table .black {
+    color: #333;
+}
+
+.clearlyIntro .table .text-rt{
+    float: right;
+}
+
+.clearlyIntro .table .t-bold {
+    font-size: 14px;
+    color: #333;
+    font-weight: 600;
+}
+
+.clearlyIntro .table .t-tl {
+    text-align: left;
+    padding-left: .5rem
+}
+
+/*--------------------------------隐藏部分---------*/
+
+.table-animation {
+      margin: 1rem;
+}
+
+.wrapper {
+    position: relative;
+    display: grid;
 }
 
 
+.wrapper1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: -1rem;
+    bottom: 0;
+    margin-right: 15px;
+    display: grid;
+    color: #fff;
+    opacity: 0;
+    background: rgba(3, 0, 0, .6);
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 120px 50px 30px 30px 30px 30px 30px 30px 30px 32px;
+}
+
+.item11 {
+    grid-column: 1 / 11;
+    grid-row: 1/2;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 120px;
+}
+
+.item12 {
+    grid-column: 1 / 11;
+    margin: 20px;
+}
+
+.wrapper1:hover {
+    opacity: 1;
+/*    animation: myfirst 4s;*/
+}
+
+@-webkit-keyframes myfirst {
+    0% {
+        background: red;
+        opacity: .6;
+    }
+    25% {
+        background: yellow;
+        opacity: .8;
+    }
+    50% {
+        background: blue;
+        opacity: .2;
+    }
+    100% {
+        background: green;
+        opacity: .6;
+    }
+}
+
+@keyframes myfirst {
+    0% {
+        background: red;
+        opacity: .6;
+    }
+    25% {
+        background: yellow;
+        opacity: .8;
+    }
+    50% {
+        background: blue;
+        opacity: .2;
+    }
+    100% {
+        background: green;
+        opacity: .6;
+    }
+}
