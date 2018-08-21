@@ -79,7 +79,7 @@ body {
     margin: 20% 0;
 }
 
-.topbar .nav-item a:hover > span {
+.topbar .nav-item .nav-link:hover {
     color: #fff;
     border-bottom: 2px solid #fff;
 }
