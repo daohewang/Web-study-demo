@@ -55,12 +55,16 @@
     line-height: 2.5rem;
 }
 
-.classify .col-lg-8 span {
+.classify .col-lg-7 span {
     font-size: 13px;
     color: #333;
 }
 
 /*-----------------------------------------表格部分---------------------------------------*/
+
+.clearlyIntro .table-animation .item {
+    border: 1px solid #dee2e6;
+}
 
 .clearlyIntro .table{
     margin-bottom: 0;
@@ -130,7 +134,7 @@
     grid-template-rows: 120px 50px 30px 30px 30px 30px 30px 30px 30px 32px;
 }
 
-.item11 {
+.item1 {
     grid-column: 1 / 11;
     grid-row: 1/2;
     font-size: 2rem;
@@ -138,7 +142,7 @@
     line-height: 120px;
 }
 
-.item12 {
+.item2 {
     grid-column: 1 / 11;
     margin: 20px;
 }
