@@ -18,7 +18,7 @@
 
 ### # 玩转Grid布局     
 
-![(已去底)](C:\Users\MaiBenBen\Desktop\(已去底).png)
+![(已去底)](img/(已去底).png)
 
 ### Grid简介：
 
