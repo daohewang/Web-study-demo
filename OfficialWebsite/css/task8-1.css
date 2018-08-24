@@ -85,18 +85,35 @@ body {
     border-bottom: 2px solid #fff;
 }
 
-@media (max-width: 768px) {
-
+@media (max-width: 767px) {
    .topbar .navbar-nav .nav-link {
-        padding: .5rem 0;
-       text-align: center;
-}
+     padding: 1rem 0;
+     text-align: center;
+    }
+    .carousel-indicators li {
+      width: 3px;
+      height: 3px;
+      border-radius: 50%;
+     }
+    .introduction .center {
+      text-align: center;
+    }
+    .introduction .sm-allcenter {
+        margin-left: 25%;
+    }
 
 }
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .introduction .sm-allcenter .row{
+      padding-left: 7rem;
+    }
+}
+
 /*--------------------------------------------轮播---------------------------------------------------*/
 
 #demo {
-    margin-top: 5rem;
+    margin-top: 8.5rem;
     width: 100%;
 }
 
