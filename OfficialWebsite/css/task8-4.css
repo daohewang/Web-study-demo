@@ -22,6 +22,7 @@
     border-bottom: 1px solid #D0D6D9;
  }
 }
+
 .job-class .diraction {
     color: #999;
     font-weight: 600;
@@ -216,16 +217,31 @@
 
 .item12 {
     grid-column: 1 / 11;
-    grid-row: 3 / 4;
-    font-size: 2rem;
+    grid-row: 3 / 5;
+    font-size: 1.5rem;
     text-align: center;
 }
 
 .item13 {
     grid-column: 2 / 10;
-    grid-row: 5 / 7;
-    padding-bottom: 65px;
+    grid-row: 5 / 11;
+    padding-bottom: 3.2rem;
     text-indent: 2em;
+    font-size: 16px;
+}
+@media (max-width: 767px) {
+    .item12 {
+      grid-column: 1 / 11;
+      grid-row: 2 / 4;
+      font-size: 1.5rem;
+      text-align: center;
+}
+    .item13 {
+      grid-row: 4 / 11;
+      padding-bottom: 7.7rem;
+      text-indent: 2em;
+      font-size: 15px;
+    }
 }
 
 @-webkit-keyframes swordsmanye {
