@@ -15,16 +15,20 @@
 
 .job-class .diraction {
     color: #999;
+    font-weight: 600;
 }
 
 .job-class a {
     color: #333;
+    font-weight: 600;
+    padding: .5rem;
 }
 
 .job-class a:hover {
     text-decoration: none;
     color: #fff;
     background-color: #29B078;
+    border-radius: 5%;
 }
 
 .job-class-active {
@@ -40,6 +44,7 @@
 .theme {
     font-size: 18px;
     color: #333;
+    font-weight:600;
     line-height: 4.5rem;
     border-bottom: 1px solid #D0D6D9;
 }
@@ -50,14 +55,14 @@
 }
 
 .wrap {
+    position: relative;
     display: grid;
     background-color: #fff;
     border: 1px solid #eeeded;
     grid-template-columns: repeat(10,1fr);
-    grid-template-rows: 200px repeat(6,40px) 50px;
+    grid-template-rows: 200px repeat(6,40px) auto;
     font-size: 12px;
     color: #333;
-/*    align-items: center;*/
 }
 
 .item1 {
@@ -143,6 +148,7 @@
     grid-column: 1 / 11;
     grid-row: 8 / 9;
     word-break: break-all;
+    padding: 5px 10px;
 }
 
 .item4, .item11 {
@@ -155,8 +161,8 @@
     border-top: none;
 }
 
-.item2, .item3, .item4, .item5, .item7, .item8, .item9, .item10, .item11 {
-    padding-top: 10px;
+.item2, .item3, .item4, .item5, .item7, .item8, .item9, .item10{
+    line-height: 40px;
     padding-left: 10px;
 }
 
@@ -179,4 +185,81 @@
 .float-r {
     float: right;
     padding-right: 10px;
+}
+
+.wrap2 {
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    display: grid;
+    margin-right: 15px;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(5, 40px) ;
+    color: #fff;
+    background: rgba(3, 0, 0, .6);
+}
+
+.wrap2:hover {
+    opacity: 1;
+    -webkit-animation: swordsmanye 3s;
+    animation: swordsmanye 3s;
+}
+
+.item12 {
+    grid-column: 1 / 11;
+    grid-row: 3 / 4;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.item13 {
+    grid-column: 2 / 10;
+    grid-row: 5 / 7;
+    padding-bottom: 65px;
+    text-indent: 2em;
+}
+
+@-webkit-keyframes swordsmanye {
+  0% {
+      background: #c00;
+      opacity: .6;
+    }
+  50% {
+      background: orange;
+      opacity: .6;
+    }
+  100% {
+      background: yellowgreen;
+      opacity: .6;
+    }
+}
+
+@keyframes swordsmanye {
+  0% {
+      background: #c00;
+      opacity: .6;
+    }
+  50% {
+      background: orange;
+      opacity: .6;
+    }
+  100% {
+      background: yellowgreen;
+      opacity: .6;
+    }
+}
+
+@keyframes swordsmanye {
+  0% {
+      background: #c00;
+      opacity: .5;
+    }
+  50% {
+      background: orange;
+      opacity: .5;
+    }
+  100% {
+      background: yellowgreen;
+      opacity: .5;
+    }
 }
