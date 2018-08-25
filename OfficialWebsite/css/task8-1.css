@@ -110,10 +110,27 @@ body {
         margin-left: 25%;
     }
     .nav-bar-brand img {
-    margin: 1.5rem 0;
-    max-height: 49px;
-    max-width: 120px;
+      margin: 1.5rem 0;
+      max-height: 49px;
+      max-width: 120px;
     }
+    #demo {
+      margin-top: 6.4rem;
+      width: 100%;
+    }
+    #demo .carousel-indicators {
+      bottom: -10px
+    }
+    #demo .carousel-indicators li {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+   }
+   #demo .carousel-control-next-icon,
+   #demo .carousel-control-prev-icon {
+    width: 20px;
+    height: 20px;
+   }
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -124,7 +141,7 @@ body {
 
 /*--------------------------------------------轮播---------------------------------------------------*/
 
-#demo {
+.demo {
     margin-top: 7.9rem;
     width: 100%;
 }
