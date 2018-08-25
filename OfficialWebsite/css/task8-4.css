@@ -13,6 +13,15 @@
     padding: 0 1rem;
 }
 
+@media (max-width: 767px) {
+    .job-class span {
+     padding: 0;
+  }
+   .job-class {
+    line-height: 2.5rem;
+    border-bottom: 1px solid #D0D6D9;
+ }
+}
 .job-class .diraction {
     color: #999;
     font-weight: 600;
