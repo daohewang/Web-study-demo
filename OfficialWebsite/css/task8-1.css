@@ -74,6 +74,7 @@ body {
     color: #fff;
     font-size: 1.2rem;
     padding: 2rem 0;
+    border-bottom: 1px solid #29b078;        /*事先给元素设置一个边框，让其颜色和背景相同，这样子就不会造成元素hover时，有上浮的问题*/
 }
 
 .nav-bar-brand img {
