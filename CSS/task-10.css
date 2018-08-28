@@ -1,0 +1,116 @@
+/*媒体查询部分*/
+
+@media (max-width: 767px) {
+    .topbar .log-in a {
+        padding: 20% 12px;
+    }
+
+    .navbar-t .navbar {
+        height: 4rem;
+        line-height: 4rem;
+    }
+
+    .navbar-t .navbar .butn-relative {
+        position: relative;
+    }
+
+    .navbar-t .navbar .butn-relative .butn {
+        position: absolute;
+/*        left: -2.rem;*/
+        top: -2rem;
+    }
+/*
+    .navbar-t .navbar .butn-relative .butn{
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbar-t .navbar .butn-relative .butn {
+        margin: auto;
+    }
+    .navbar-t .navbar .butn-relative .butn button {
+        margin: 0 2px;
+    }
+*/
+}
+
+html, body, div, ul, li, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ol, form, input, textarea, th, td, select {
+    margin: 0;
+    padding: 0;
+}
+
+/*公共样式*/
+.ellipse {                      /*字体超出部分用点表示*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+
+
+/*登录注册部分*/
+
+.topbar {
+    background-color: #1D7AD9;
+    color: #fff;
+    font-size: 14px;
+    height: 2.5rem;
+    line-height: 2.5rem;
+}
+
+.contract {
+    display: inline-block;            /*保证float可以起作用*/
+    line-height: 2.5rem;
+    width: 40%;
+}
+
+.flt {
+    float: right;
+}
+
+.log-in a {
+    color: #fff;
+    font-size: 1rem;
+    padding: 4% 40px;
+}
+
+.log-in a:hover {
+    background-color: #fff;
+    color: #333;
+    text-decoration: none;
+}
+
+/*导航栏部分*/
+
+.navbar {
+    background-color: red;
+    height: 6.25rem;
+    line-height: 6.25rem;
+    width: 100%;
+    /*#F9F9F9*/
+}
+
+.navbar .btn-color {
+    background-color: #fff;
+}
+
+.navbar .btn-color a {
+    color: #000;
+    text-decoration: none;
+}
+
+.navbar .btn-color:hover {
+    background-color: #1D7AD9;
+}
+
+.navbar .btn-color a:hover {
+    color: #fff;
+}
+
+.navbar .butn-relative .butn {
+    margin-left: auto;
+}
+
+.navbar .butn button{
+    margin: 0 1.5rem;
+}
