@@ -12,7 +12,6 @@ html, body, div, ul, li, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ol, form, input,
 }
 
 
-
 /*媒体查询部分*/
 
 @media (max-width: 767px) {
@@ -30,24 +29,12 @@ html, body, div, ul, li, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ol, form, input,
     }
 
     .navbar-t .navbar .butn-relative .butn {
-        position: absolute;
-/*        left: -2.rem;*/
+        left: -2.rem;
         top: -2rem;
-    }
-/*
-    .navbar-t .navbar .butn-relative .butn{
-        display: flex;
-        justify-content: space-between;
-    }
-    .navbar-t .navbar .butn-relative .butn {
-        margin: auto;
-    }
-    .navbar-t .navbar .butn-relative .butn button {
-        margin: 0 2px;
-    }
-*/
-}
+        position: absolute;
 
+    }
+    }
 
 /*登录注册部分*/
 
