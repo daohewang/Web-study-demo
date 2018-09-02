@@ -16,30 +16,110 @@
 </head>
 
 <body>
-<!--  登录注册部分-->
-   <div class="topbar">
-       <div class="container">
-           <div class="contract">客服热线：010-594-78634</div>
-           <div class="log-in flt">
-               <a href="#"><span>登录</span></a>
-               <a href="#"><span>注册</span></a>
-           </div>
-       </div>
-   </div>
-
-<!--导航栏部分-->
-  <div class="navbar-t">
-   <div class="navbar">
-       <div class="container butn-relative">
-         <div class="butn">
-          <button type="button" class="btn btn-color"><a href="">首页</a></button>
-          <button type="button" class="btn btn-color"><a href="#">在线定制</a></button>
-          <button type="button" class="btn btn-color"><a href="#">标准箱</a></button>
-          <button type="button" class="btn btn-color"><a href="#">品质保证</a></button>
+    <!--  登录注册部分-->
+    <div class="topbar">
+        <div class="container">
+            <div class="contract">客服热线：010-594-78634</div>
+            <div class="log-in flt">
+                <a href="#"><span>登录</span></a>
+                <a href="#"><span>注册</span></a>
+            </div>
         </div>
-       </div>
-   </div>
- </div>
+    </div>
+
+    <!--导航栏部分-->
+    <div class="navbar-t">
+        <div class="navbar">
+            <div class="container butn-relative">
+                <div class="butn">
+                    <button type="button" class="btn btn-color"><a href="">首页</a></button>
+                    <button type="button" class="btn btn-color"><a href="#">在线定制</a></button>
+                    <button type="button" class="btn btn-color"><a href="#">标准箱</a></button>
+                    <button type="button" class="btn btn-color"><a href="#">品质保证</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 进度条部分-->
+    <!--
+  <div class="progress-bar">
+      <div class="item1 active">
+          <div class="progress-line"></div>
+          <div class="progress-round"></div>
+          <div class="progress-font">1.定制纸箱</div>
+      </div>
+  </div>
+-->
+    <div class="container progress-line">
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar bgc" role="progressbar" style="width: 25%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar bgc" role="progressbar" style="width: 25%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar bgc" role="progressbar" style="width: 25%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <div class="round-bar">
+            <div class="item1">1</div>
+            <div class="font-bar">1.定制纸箱</div>
+            <div class="item1 item2">2</div>
+            <div class="font-bar font-bar2">2.选择数量</div>
+            <div class="item1 item3">3</div>
+            <div class="font-bar font-bar3">3.上传附件</div>
+            <div class="item1 item4">4</div>
+            <div class="font-bar font-bar4">4.确认订单</div>
+        </div>
+    </div>
+
+    <!-- 表单说明部分-->
+    <div class="container">
+        <div class="table-head">
+            <div class="head-intro">
+                <i></i>
+                <span>请您按照以下步骤来定制您的纸箱</span>
+            </div>
+        </div>
+    </div>
+
+    <!--  表单正式部分-->
+    <div class="container">
+        <div class="table-form">
+            <div class="item1">
+                <img src="../img/box.png" alt="">
+                <span>选择箱型</span>
+            </div>
+            <div class="item2">
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadioInline1">对口箱</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadioInline2">飞机盒</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline3" name="customRadioInline1" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadioInline3">天地盖</label>
+                </div>
+                <select class="form-control form-control-sm">
+                  <option class="active"><span>查看详情</span></option>
+                  <option value="">方形</option>
+                  <option value=" ">圆形</option>
+                  <option value="">锥形</option>
+                </select>
+            </div>
+          <div class="item3">
+                <img src="../img/Ruler.png" alt="">
+                <span>确定尺寸</span>
+            </div>
+        <div class="item4">
+            <div class="custom-control custom-radio">
+              <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+              <label class="custom-control-label" for="customRadio1">外径</label>
+            </div>
+            长<input type="text">mm
+        </div>
+        </div>
+    </div>
 </body>
 
 </html>

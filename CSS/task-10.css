@@ -15,6 +15,7 @@ html, body, div, ul, li, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ol, form, input,
 /*媒体查询部分*/
 
 @media (max-width: 767px) {
+
     .topbar .log-in a {
         padding: 20% 12px;
     }
@@ -29,12 +30,14 @@ html, body, div, ul, li, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ol, form, input,
     }
 
     .navbar-t .navbar .butn-relative .butn {
-        left: -2.rem;
-        top: -2rem;
         position: absolute;
-
+        top: -2rem;
     }
+    .navbar-t .navbar .butn-relative .butn button {
+        margin: auto;
+/*        float: left;*/
     }
+}
 
 /*登录注册部分*/
 
@@ -71,11 +74,10 @@ html, body, div, ul, li, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ol, form, input,
 /*导航栏部分*/
 
 .navbar {
-    background-color: red;
+    background-color: #F9F9F9;
     height: 6.25rem;
     line-height: 6.25rem;
     width: 100%;
-    /*#F9F9F9*/
 }
 
 .navbar .btn-color {
@@ -99,6 +101,119 @@ html, body, div, ul, li, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ol, form, input,
     margin-left: auto;
 }
 
-.navbar .butn button{
+.navbar .butn button {
     margin: 0 1.5rem;
+}
+
+.navbar .butn button:nth-child(4) {            /*去除最后一个右外边距*/
+    margin-right: 0;
+}
+
+/*进度条部分*/
+
+.progress-line {
+    margin-top: 3rem;
+}
+
+.progress-line .progress {
+    float: right;
+    height: .4rem;
+    width: 60%;
+}
+
+.progress-line .progress .progress-bar{
+    background-color: #FF7F02;
+}
+
+.progress-line .round-bar{
+    position: relative;
+}
+
+.progress-line .round-bar .item1 {
+    position: absolute;
+    top: -.5rem;
+    right: 52%;
+    display: inline-block;
+    line-height: 1.3rem;                /*保证文字垂直居中对齐*/
+    width: 1.3rem;
+    border-radius: 50%;
+    background-color: #FF7F02;
+    font-size: .7rem;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+}
+
+.progress-line .round-bar .item2 {
+    right: 36.5%;
+    background-color: #ccc;
+}
+
+.progress-line .round-bar .item3 {
+    right: 21.5%;
+    background-color: #ccc;
+}
+
+.progress-line .round-bar .item4 {
+    right: 6.5%;
+    background-color: #ccc;
+}
+
+.round-bar .font-bar {
+    position: absolute;
+    top: 1.5rem;
+    right: 49.5%;
+    color: #FF7F02;
+    font-size: 18px;
+}
+
+.round-bar .font-bar2 {
+    right: 33.5%;
+    color: #ccc;
+}
+
+.round-bar .font-bar3 {
+    right: 18.5%;
+    color: #ccc;
+}
+
+.round-bar .font-bar4 {
+    right: 3.5%;
+    color: #ccc;
+}
+.progress-line .progress .bgc {
+    background-color: #ccc;
+}
+
+/*表单说明部分*/
+.table-head {
+    position: relative;
+    margin-top: 10rem;
+}
+
+.table-head .head-intro i {
+    position: absolute;
+    top: .4rem;
+    display: inline-block;
+    padding-top: 1rem;
+    height: 22px;
+    width: 4px;
+    background-color: #1D7AD9;
+    border-radius: 2px;
+}
+
+.table-head .head-intro span{
+    padding-left: .6rem;
+    color: #333;
+    font-size: 22px;
+}
+
+/*表单正式部分*/
+
+.table-form .form-control {
+    width: 10%;
+}
+
+.table-form .form-control .active > span {
+    color: #999;
 }
