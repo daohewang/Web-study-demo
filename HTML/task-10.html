@@ -42,15 +42,6 @@
     </div>
 
     <!-- 进度条部分-->
-    <!--
-  <div class="progress-bar">
-      <div class="item1 active">
-          <div class="progress-line"></div>
-          <div class="progress-round"></div>
-          <div class="progress-font">1.定制纸箱</div>
-      </div>
-  </div>
--->
     <div class="container progress-line">
         <div class="progress">
             <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
@@ -81,43 +72,110 @@
     </div>
 
     <!--  表单正式部分-->
-    <div class="container">
+    <div class="container form-top">
         <div class="table-form">
-            <div class="item1">
-                <img src="../img/box.png" alt="">
-                <span>选择箱型</span>
+
+            <div class="item item1 flex border">
+                &nbsp;&nbsp;&nbsp;<img src="../img/box.png" alt="">
+                &nbsp;&nbsp;<span>选择箱型</span>
             </div>
-            <div class="item2">
-                <div class="custom-control custom-radio custom-control-inline">
-                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+
+            <div class="item2 flex border">
+                <div class="custom-control custom-radio custom-control-inline space-x">
+                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">&nbsp;
                     <label class="custom-control-label" for="customRadioInline1">对口箱</label>
                 </div>
                 <div class="custom-control custom-radio custom-control-inline">
-                    <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                    <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">&nbsp;
                     <label class="custom-control-label" for="customRadioInline2">飞机盒</label>
                 </div>
                 <div class="custom-control custom-radio custom-control-inline">
-                    <input type="radio" id="customRadioInline3" name="customRadioInline1" class="custom-control-input">
+                    <input type="radio" id="customRadioInline3" name="customRadioInline1" class="custom-control-input">&nbsp;
                     <label class="custom-control-label" for="customRadioInline3">天地盖</label>
                 </div>
-                <select class="form-control form-control-sm">
+            </div>
+
+           <div class="item3 flex">
+               <select class="form-control form-control-sm" style="display: inline-block">
+                  <option class="active"><span>查看详情</span></option>
+                  <option value="">方形</option>
+                  <option value=" ">圆形</option>
+                  <option value="">锥形</option>
+                </select>
+           </div>
+
+            <div class="item item4 flex border">
+                &nbsp;&nbsp;&nbsp;<img src="../img/Ruler.png" alt="">
+                 &nbsp;&nbsp;<span>确定尺寸</span>
+            </div>
+
+               <div class="item-com item5 flex">
+                <div class="custom-control custom-radio">
+                    <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">&nbsp;
+                    <label class="custom-control-label" for="customRadio1">外径</label>
+
+                    <lable for="">长<input type="number" class="w-10">mm</lable>
+                    <lable for="">宽<input type="number" class="w-10">mm</lable>
+                    <lable for="">高<input type="number" class="w-10">mm</lable>
+                </div>
+             </div>
+
+               <div class=" item-com item6 flex">
+                <div class="custom-control custom-radio">
+                    <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">&nbsp;
+                    <label class="custom-control-label" for="customRadio2">内径</label>
+
+                    <lable for="">长<input type="number" class="w-10">mm</lable>
+                    <lable for="">宽<input type="number" class="w-10">mm</lable>
+                    <lable for="">高<input type="number" class="w-10">mm</lable>
+                </div>
+             </div>
+
+            <div class="item7 flex">
+                <select class="form-control form-control-sm" style="display: inline-block">
                   <option class="active"><span>查看详情</span></option>
                   <option value="">方形</option>
                   <option value=" ">圆形</option>
                   <option value="">锥形</option>
                 </select>
             </div>
-          <div class="item3">
-                <img src="../img/Ruler.png" alt="">
-                <span>确定尺寸</span>
+
+            <div class="item item8 flex border">
+                 &nbsp;&nbsp;&nbsp;<img src="../img/Cut%20_%20Scissors.png" alt="">
+                 &nbsp;&nbsp;<span>选择材质</span>
             </div>
-        <div class="item4">
-            <div class="custom-control custom-radio">
-              <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-              <label class="custom-control-label" for="customRadio1">外径</label>
+<!--
+
+            <div class="item8">
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline4" name="customRadioInline2" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadioInline4">一层A瓦优质</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline5" name="customRadioInline2" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadioInline5">双层A瓦优质</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline6" name="customRadioInline2" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadioInline6">三层A瓦优质</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline7" name="customRadioInline2" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadioInline7">四层A瓦优质</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline8" name="customRadioInline2" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadioInline8">五层A瓦优质</label>
+                </div>
+
+                <select class="form-control form-control-sm" style="display: inline-block">
+                  <option class="active"><span>查看详情</span></option>
+                  <option value="">方形</option>
+                  <option value=" ">圆形</option>
+                  <option value="">锥形</option>
+                </select>
             </div>
-            长<input type="text">mm
-        </div>
+-->
         </div>
     </div>
 </body>
