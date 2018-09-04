@@ -309,7 +309,7 @@ lable-space {
 .table-form .item7 {
     grid-column: 6 / 7;
     grid-row: 5 / 7;
-    border-right: 1px solid #F1F1F1
+    border-right: 1px solid #F1F1F1;
 }
 
 .table-form .item8 {
@@ -317,9 +317,23 @@ lable-space {
     grid-column: 1 / 7;
 }
 
-.tabel-form .item9 {
-    grid-row: 11 / 13;
-    grid-column: 1 / 7;
+.table-form .item9 {
+    grid-row: 8 / 10;
+    grid-column: 1 / 6;
+    padding-top: 0;
+    border-left: 1px solid #F1F1F1;
+    border-bottom: 1px solid #F1F1F1;
+}
+
+.table-form .item9 label {
+    padding-right: 1rem;
+}
+
+.table-form .item10 {
+    grid-row: 8 / 10;
+    grid-column: 6 / 7;
+    border-right:  1px solid #F1F1F1;
+    border-bottom: 1px solid #F1F1F1;
 }
 .table-form .form-control {
     width: 70%;
