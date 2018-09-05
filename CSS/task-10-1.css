@@ -1,0 +1,210 @@
+/*去除浏览器默认样式*/
+html, body, div, ul, li, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ol, form, input, textarea, th, td, select {
+    margin: 0;
+    padding: 0;
+}
+
+/*公共样式*/
+.ellipse {                      /*字体超出部分用点表示*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/*媒体查询部分*/
+
+@media (max-width: 767px) {
+
+    .topbar .log-in a {
+        padding: 20% 12px;
+    }
+    .navbar .row .butn button {
+      margin: 0;
+    }
+    .navbar .container .butn button {
+        margin-right: .2rem;
+    }
+    .navbar .container .row {
+        margin-left: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+     }
+
+}
+
+/*登录注册部分*/
+
+.topbar {
+    height: 2.5rem;
+    line-height: 2.5rem;
+    color: #fff;
+    font-size: 14px;
+    background-color: #1D7AD9;
+}
+
+.contract {
+    display: inline-block;            /*保证float可以起作用*/
+    line-height: 2.5rem;
+    width: 40%;
+}
+
+.flt {
+    float: right;
+}
+
+.log-in a {
+    color: #fff;
+    font-size: 1rem;
+    padding: 4% 40px;
+}
+
+.log-in a:hover {
+    background-color: #fff;
+    color: #333;
+    text-decoration: none;
+}
+
+/*登录注册部分*/
+
+.topbar {
+    background-color: #1D7AD9;
+    color: #fff;
+    font-size: 14px;
+    height: 2.5rem;
+    line-height: 2.5rem;
+}
+
+.contract {
+    display: inline-block;            /*保证float可以起作用*/
+    line-height: 2.5rem;
+    width: 40%;
+}
+
+.flt {
+    float: right;
+}
+
+.log-in a {
+    color: #fff;
+    font-size: 1rem;
+    padding: 4% 40px;
+}
+
+.log-in a:hover {
+    background-color: #fff;
+    color: #333;
+    text-decoration: none;
+}
+
+/*导航栏部分*/
+
+.navbar-t {
+    background-color: #F9F9F9;
+    height: 5.5rem;
+    line-height: 5.5rem;
+    width: 100%;
+}
+
+.navbar-t .btn-color {
+    background-color: #fff;
+}
+
+.navbar-t .btn-color a {
+    color: #000;
+    text-decoration: none;
+}
+
+.navbar-t .btn-color:hover {
+    background-color: #1D7AD9;
+}
+.navbar-t .btn-color a:hover {
+    color: #fff;
+}
+
+.navbar-t  button {
+    margin: 0 1.5rem;
+}
+
+.navbar-t .butn button:nth-child(4) {            /*去除最后一个右外边距*/
+    margin-right: 0;
+}
+
+/*进度条部分*/
+
+.progress-line {
+    margin-top: 3rem;
+}
+
+.progress-line .progress {
+    float: right;
+    height: .4rem;
+    width: 60%;
+}
+
+.progress-line .progress .progress-bar{
+    background-color: #FF7F02;
+}
+
+.progress-line .round-bar{
+    position: relative;
+}
+
+.progress-line .round-bar .item1 {
+    position: absolute;
+    top: -.5rem;
+/*    right: 52%;*/
+    display: inline-block;
+    line-height: 1.3rem;                /*保证文字垂直居中对齐*/
+    width: 1.3rem;
+    border-radius: 50%;
+    background-color: #FF7F02;
+    font-size: .7rem;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+}
+
+.progress-line .round-bar .item2 {
+/*    right: 36.5%;*/
+    background-color: #ccc;
+}
+
+.progress-line .round-bar .item3 {
+/*    right: 21.5%;*/
+    background-color: #ccc;
+}
+
+.progress-line .round-bar .item4 {
+/*    right: 6.5%;*/
+    background-color: #ccc;
+}
+
+.round-bar .font-bar {
+    position: absolute;
+    top: 1.5rem;
+/*    right: 49.5%;*/
+    color: #FF7F02;
+    font-size: 18px;
+}
+
+.round-bar .font-bar2 {
+/*    right: 33.5%;*/
+    color: #ccc;
+}
+
+.round-bar .font-bar3 {
+/*    right: 18.5%;*/
+    color: #ccc;
+}
+
+.round-bar .font-bar4 {
+/*    right: 3.5%;*/
+    color: #ccc;
+}
+.progress-line .progress .bgc {
+    background-color: #ccc;
+}
