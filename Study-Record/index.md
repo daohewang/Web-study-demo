@@ -79,3 +79,44 @@
 
 
 # Special  Tricks
+
+1. :before和:after惊人用法
+
+      在这里展示一个常用的场景，很多人写过如下清除浮动的代码：
+
+```css
+<div id="container">
+    <div class="content-left">this is left content.</div>
+    <div class="content-right">this is right content.</div>
+    <div class="clear"></div>
+</div>
+
+对应的css代码如下：
+.content-left{
+    float: left;
+    width: 150px;
+    font-weight:bold;
+}
+.content-right{
+    float: right;
+    width: 450px;
+    font-weight:bold;
+}
+.clear{
+    clear: both;
+}
+
+为了清除上面的浮动，多添加了一个<div>元素，并给此<div>元素添加了clear样式，这种做法破坏了HTML5的语义化原则，因此应对css样式进行修改，添加如下代码：
+ .clearfix{
+      zoom: 1;
+  }
+  .clearfix:before,
+  .clearfix:after{
+      display: table;
+      content: "";
+  }
+.clearfix:after{
+    clear: both;
+ }
+只要在父容器上应用clearfix这个类即可实现清除浮动。。。
+```
